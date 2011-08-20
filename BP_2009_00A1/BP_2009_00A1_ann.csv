@@ -1,0 +1,23 @@
+GEO.id,GEO.id2,GEO.display-label,GEO.annotation.id,NAICS.id,NAICS.display-label,NAICS.annotation.id,ESTAB,EMP,EMP_N,PAYQTR1,PAYQTR1_N,PAYANN,PAYANN_N
+Geographic identifier code,Id2,Geographic area name,Id,2007 North American Industry Classification System (NAICS) code code,Meaning of 2007 North American Industry Classification System (NAICS) code code,Id,Number of establishments,Paid employees for pay period including March 12 (number),Noise range for paid employees for pay period including March 12 (%),"First-quarter payroll ($1,000)",Noise range for first-quarter payroll (%),"Annual payroll ($1,000)",Noise range for annual payroll (%)
+0500000US48423,48423,"Smith County, Texas",,00,Total for all sectors,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,11,"Agriculture, forestry, fishing and hunting",,,,ECONF$G,,ECONF$H,,ECONF$H
+0500000US48423,48423,"Smith County, Texas",,21,"Mining, quarrying, and oil and gas extraction",,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,22,Utilities,,,,ECONF$G,,ECONF$H,,ECONF$H
+0500000US48423,48423,"Smith County, Texas",,23,Construction,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,31-33,Manufacturing,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,42,Wholesale trade,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,44-45,Retail trade,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,48-49,Transportation and warehousing,,,,ECONF$H,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,51,Information,,,,ECONF$H,,ECONF$H,,ECONF$H
+0500000US48423,48423,"Smith County, Texas",,52,Finance and insurance,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,53,Real estate and rental and leasing,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,54,"Professional, scientific, and technical services",,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,55,Management of companies and enterprises,,,,ECONF$H,,ECONF$H,,ECONF$H
+0500000US48423,48423,"Smith County, Texas",,56,Administrative and Support and Waste Mang and Remediation Srvs,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,61,Educational services,,,,ECONF$G,,ECONF$H,,ECONF$H
+0500000US48423,48423,"Smith County, Texas",,62,Health care and social assistance,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,71,"Arts, entertainment, and recreation",,,,ECONF$G,,ECONF$H,,ECONF$H
+0500000US48423,48423,"Smith County, Texas",,72,Accommodation and food services,,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,81,Other services (except public administration),,,,ECONF$G,,ECONF$G,,ECONF$G
+0500000US48423,48423,"Smith County, Texas",,99,Industries not classified,,,ECONF$a,ECONF$S,,ECONF$G,,ECONF$G

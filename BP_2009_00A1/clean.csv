@@ -1,0 +1,22 @@
+"naics_code","naics_label","establishments","paid_employees","first_quarter_payroll","annual_payroll_thousands"
+0,"Total for all sectors",5363,85043,730632,3015944
+11,"Agriculture, forestry, fishing and hunting",15,77,733,3046
+21,"Mining, quarrying, and oil and gas extraction",164,1573,31750,112241
+22,"Utilities",19,262,4156,15262
+23,"Construction",470,4219,36729,143604
+"31-33","Manufacturing",201,8169,96659,375217
+42,"Wholesale trade",277,2900,34341,134601
+"44-45","Retail trade",804,11880,70276,281657
+"48-49","Transportation and warehousing",143,2324,20392,86266
+51,"Information",80,2232,23202,85786
+52,"Finance and insurance",414,3082,37162,149264
+53,"Real estate and rental and leasing",233,1336,10906,49347
+54,"Professional, scientific, and technical services",564,3944,53210,239489
+55,"Management of companies and enterprises",33,3214,24076,144334
+56,"Administrative and Support and Waste Mang and Remediation Srvs",297,4502,24071,96050
+61,"Educational services",43,1016,6966,26923
+62,"Health care and social assistance",611,19379,195288,822689
+71,"Arts, entertainment, and recreation",60,983,4262,18330
+72,"Accommodation and food services",362,8918,27312,115343
+81,"Other services (except public administration)",553,5015,29029,116091
+99,"Industries not classified",20,,112,404
