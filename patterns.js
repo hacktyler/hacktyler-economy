@@ -11,14 +11,14 @@ function create_label(domElement, node) {
 
     var style = domElement.style;
     style.display = '';
-    style.border = '1px solid transparent';
+    style.border = '2px solid transparent';
     
     domElement.onmouseover = function() {
-        style.border = '1px solid #9FD4FF';
+        style.border = '2px solid #9FD4FF';
     };
     
     domElement.onmouseout = function() {
-        style.border = '1px solid transparent';
+        style.border = '2px solid transparent';
     };
 }
 

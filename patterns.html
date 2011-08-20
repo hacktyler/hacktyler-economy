@@ -20,17 +20,19 @@
     <div id="legend">
         <h1>The economy of Smith County</h1> 
 
-        <p>This treemap shows Smith County's economy divided into the major groupings of the North American Industry Classification System. Each box is scaled relative to the amount of the economy it represents, with the total area being 100% of the economy.</p>
+        <p>This treemap shows Smith County's economy divided into the major groupings of the <a href="http://www.census.gov/eos/www/naics/">North American Industry Classification System</a>. Each box is scaled relative to the proportion of the business establishments it represents.</p>
 
-        <p>All data is taken from the U.S. Census Bureau's recently released 2009 County Business Patterns survey.</p>
+        <p>Data for this application is taken from the <a href="http://www.census.gov/">U.S. Census Bureau's</a> recently released <a href="http://www.census.gov/econ/cbp/index.html">2009 County Business Patterns</a> survey.</p>
 
         <p>Use the buttons below to reorganize the map by number of business establishments, paid employees, or annual payroll*.</p>
 
         <div class="controls">
             <button onclick="reshape_treemap('establishments');">Establishments</button><br />
             <button onclick="reshape_treemap('paid_employees');">Employees</button>
-            <button onclick="reshape_treemap('annual_payroll_thousands');">Payroll</button>
+            <button onclick="reshape_treemap('annual_payroll_thousands');">Annual Payroll</button>
         </div>
+
+        <p>Hover over an industry for additional details.</p>
 
         <div class="note">
             * Annual payroll is expressed in thousands of dollars.
@@ -38,7 +40,7 @@
 
         <div class="credits">
             A <a href="http://hacktyler.com"</a>Hack Tyler</a> project<br />
-            Source: U.S. Census Bureau
+        <strong>Source:</strong> <a href="http://www.census.gov/">U.S. Census Bureau</a>
         </div>
     </div>
     </div>
