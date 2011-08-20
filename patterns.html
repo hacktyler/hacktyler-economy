@@ -9,6 +9,7 @@
     <!--[if IE]><script language="javascript" type="text/javascript" src="../../Extras/excanvas.js"></script><![endif]-->
 
     <script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="underscore-min.js"></script>
     <script language="javascript" type="text/javascript" src="jit-min.js"></script>
 
     <script language="javascript" type="text/javascript" src="data.js"></script>
@@ -17,6 +18,9 @@
 <body>
     <div id="legend">
         <h1>The economic makeup of Smith County</h1> 
+        <button onclick="reshape_treemap('establishments');">Establishments</button>
+        <button onclick="reshape_treemap('paid_employees');">Employees</button>
+        <button onclick="reshape_treemap('annual_payroll_thousands');">Payroll</button>
     </div>
 
     <div id="infovis">
