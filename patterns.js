@@ -19,7 +19,7 @@ $(function init() {
       //add content to the tooltip when a node
       //is hovered
       onShow: function(tip, node, isLeaf, domElement) {
-        var html = "<div class=\"tip-title\">" + node.name + "</div><div class=\"tip-text\">";
+        tip.innerHTML = "<div class=\"tip-title\">" + node.name + "</div><div class=\"tip-text\">";
       }  
     },
     //Add the name of the node in the correponding label
