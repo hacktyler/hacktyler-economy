@@ -4,24 +4,57 @@ html, body {
     max-height: 100%;
     margin:0;
     padding:0;
-    font-family: "Lucida Grande", Verdana;
-    font-size: 0.9em;
+    font-family: Georgia, serif;
 }
 
-#legend {
-    width: 200px;
+h1, h2, h3, h4, h5 {
+    font-family: Verdana, sans-serif;
+}
+
+h1 { font-size: 2.0em; } 
+h2 { font-size: 1.7em } 
+h3 { font-size: 1.5em } 
+h4 { font-size: 1.3em } 
+h5 { font-size: 1.1em } 
+
+#legend-wrapper {
+    width: 250px;
     height: 100%;
     position: absolute:
     left: 0;
     top: 0;
     bottom: 0;
-    overflow: hidden;
+}
+
+#legend {
+    width: 230px;
+    overflow: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#legend p {
+    margin-top: 7px;
+    line-height: 1.1em;
+}
+
+#legend .controls {
+    margin-top: 14px;
+}
+
+#legend .note {
+    margin-top: 14px;
+    font-size: 10px;
+}
+
+#legend .credits {
+    margin-top: 7px;
 }
 
 #infovis {
     height: 100%;
     position: absolute;
-    left: 200px;
+    left: 250px;
     top: 0px;
     right: 0;
     bottom 0:
@@ -30,12 +63,22 @@ html, body {
 
 .tip {
     color: white;
-    width: 139px;
+    width: 175px;
     background-color: black;
     border:1px solid #ccc;
-    font-size:10px;
-    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:14px;
     padding:7px;
+}
+
+.tip .tip-stats {
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+}
+
+.tip .tip-stats .stat {
+    text-align: right;
 }
 
 .node {
@@ -47,5 +90,9 @@ html, body {
   -o-text-shadow:2px 2px 5px #000;
   -webkit-text-shadow:2px 2px 5px #000;
   -moz-text-shadow:2px 2px 5px #000;
+}
+
+.node-wrapper {
+    padding: 7px;
 }
 

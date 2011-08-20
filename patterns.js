@@ -1,11 +1,13 @@
 var treemap = null;
+var node_template = null;
+var tooltip_template = null;
 
 function show_tooltip(tip, node, isLeaf, domElement) {
-    tip.innerHTML = "<div class=\"tip-title\">" + node.name + "</div><div class=\"tip-text\">";
+    tip.innerHTML = tooltip_template(node);
 }
 
 function create_label(domElement, node) {
-    domElement.innerHTML = node.name;
+    domElement.innerHTML = node_template(node);
 
     var style = domElement.style;
     style.display = '';
@@ -44,8 +46,6 @@ function create_treemap(data) {
     treemap = new $jit.TM.Squarified({
         injectInto: 'infovis',
         titleHeight: 0,
-        /*animate: true,*/
-        duration: 1000,
         Tips: {
             enable: true,
             offsetX: 20,
@@ -60,6 +60,9 @@ function create_treemap(data) {
 }
 
 $(function init() {
+    node_template = _.template($("#node-template").html());
+    tooltip_template = _.template($("#tooltip-template").html());
+
     create_treemap(DATA);
 
     $(window).resize(function() {

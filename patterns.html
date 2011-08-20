@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Economic Census data</title>
+    <title>The economy of Smith county</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <link type="text/css" href="reset.css" rel="stylesheet" />
@@ -16,14 +16,58 @@
     <script language="javascript" type="text/javascript" src="patterns.js"></script>
 </head>
 <body>
+    <div id="legend-wrapper">
     <div id="legend">
-        <h1>The economic makeup of Smith County</h1> 
-        <button onclick="reshape_treemap('establishments');">Establishments</button>
-        <button onclick="reshape_treemap('paid_employees');">Employees</button>
-        <button onclick="reshape_treemap('annual_payroll_thousands');">Payroll</button>
+        <h1>The economy of Smith County</h1> 
+
+        <p>This treemap shows Smith County's economy divided into the major groupings of the North American Industry Classification System. Each box is scaled relative to the amount of the economy it represents, with the total area being 100% of the economy.</p>
+
+        <p>All data is taken from the U.S. Census Bureau's recently released 2009 County Business Patterns survey.</p>
+
+        <p>Use the buttons below to reorganize the map by number of business establishments, paid employees, or annual payroll*.</p>
+
+        <div class="controls">
+            <button onclick="reshape_treemap('establishments');">Establishments</button><br />
+            <button onclick="reshape_treemap('paid_employees');">Employees</button>
+            <button onclick="reshape_treemap('annual_payroll_thousands');">Payroll</button>
+        </div>
+
+        <div class="note">
+            * Annual payroll is expressed in thousands of dollars.
+        </div>
+
+        <div class="credits">
+            A <a href="http://hacktyler.com"</a>Hack Tyler</a> project<br />
+            Source: U.S. Census Bureau
+        </div>
+    </div>
     </div>
 
     <div id="infovis">
     </div>
+
+    <script type="text/template" id="node-template">
+        <div class="node-wrapper">
+            <h4><%= name %></h4>
+        </div>
+    </script>
+
+    <script type="text/template" id="tooltip-template">
+        <h5><%= name %></h5>
+        <table class="tip-stats">
+            <tr>
+                <td class="label">Establishments:</td>
+                <td class="stat"><%= data.establishments %></td>
+            </tr>
+            <tr>
+                <td class="label">Paid employees:</td>
+                <td class="stat"><%= data.paid_employees %></td>
+            </tr>
+            <tr>
+                <td class="label">Annual Payroll*:</td>
+                <td class="stat"><%= data.annual_payroll_thousands %></td>
+            </tr>
+        </table>
+    </script> 
 </body>
 </html>
