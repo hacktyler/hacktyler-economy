@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
+import colorsys
 import csv
 import json
+import random
 
 reader = csv.DictReader(open('BP_2009_00A1/clean.csv'))
 
@@ -13,6 +15,24 @@ def _int(s):
     except ValueError:
         return 0
 
+def generate_color():
+    for h in range(0, 360, 360 / 20):
+        h = float(h) / 360
+        s = (90 + 10 * random.random()) / 200 
+        l = (30 + 70 * random.random()) / 200
+
+        rgb = colorsys.hls_to_rgb(h, l, s)
+        rgb = map(lambda n: n * 255, rgb)
+
+        yield '#%02x%02x%02x' % tuple(rgb)
+
+def splitthousands(s, sep=','):  
+    if len(s) <= 3: return s  
+    return splitthousands(s[:-3], sep) + sep + s[-3:]
+
+def add_commas(n):
+    return splitthousands(str(n), ',')
+
 def create_obj_for_row(row):
     obj = {}
 
@@ -22,8 +42,14 @@ def create_obj_for_row(row):
         'establishments': _int(row['establishments']),
         'paid_employees': _int(row['paid_employees']),
         'first_quarter_payroll': _int(row['first_quarter_payroll']),
-        'annual_payroll_thousands': _int(row['annual_payroll_thousands']),
-        '$area': _int(row['establishments'])
+        'annual_payroll': _int(row['annual_payroll_thousands']) * 1000,
+        
+        '$area': _int(row['establishments']),
+        
+        'str_establishments': add_commas(_int(row['establishments'])),
+        'str_paid_employees': add_commas(_int(row['paid_employees'])),
+        'str_first_quarter_payroll': add_commas(_int(row['first_quarter_payroll'])),
+        'str_annual_payroll': '$%s' % add_commas(_int(row['annual_payroll_thousands']) * 1000)
     }
     obj['children'] = []
 
@@ -34,8 +60,12 @@ row = reader.next()
 
 root = create_obj_for_row(row)
 
+colors = generate_color()
+
 for row in reader:
-    root['children'].append(create_obj_for_row(row))
+    obj = create_obj_for_row(row)
+    obj['data']['$color'] = colors.next()
+    root['children'].append(obj)
 
 with open('data.js', 'w') as f:
     f.write('DATA = %s' % json.dumps(root))

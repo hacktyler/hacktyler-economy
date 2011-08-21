@@ -11,14 +11,14 @@ function create_label(domElement, node) {
 
     var style = domElement.style;
     style.display = '';
-    style.border = '2px solid transparent';
+    style.border = '1px solid transparent';
     
     domElement.onmouseover = function() {
-        style.border = '2px solid #9FD4FF';
+        style.border = '1px solid #9FD4FF';
     };
     
     domElement.onmouseout = function() {
-        style.border = '2px solid transparent';
+        style.border = '1px solid transparent';
     };
 }
 
@@ -33,13 +33,8 @@ function reshape_treemap(datum) {
 
     treemap.loadJSON(DATA);
     treemap.refresh();
-
-    /*treemap.op.morph(DATA, { 
-        type: 'fade', 
-        duration: 1000, 
-        hideLabels: false, 
-        transition: $jit.Trans.Quart.easeOut 
-    });*/
+    $(".controls button").removeAttr('disabled');
+    $(".controls button." + datum).attr('disabled', 'disabled');
 }
 
 function create_treemap(data) {
@@ -64,6 +59,7 @@ $(function init() {
     tooltip_template = _.template($("#tooltip-template").html());
 
     create_treemap(DATA);
+    $("button.establishments").attr('disabled', 'disabled');
 
     $(window).resize(function() {
         treemap = null;

@@ -25,6 +25,7 @@ h5 { font-size: 1.1em }
     left: 0;
     top: 0;
     bottom: 0;
+    border-right: 1px solid black;
 }
 
 #legend {
@@ -36,7 +37,7 @@ h5 { font-size: 1.1em }
 
 #legend p {
     margin-top: 7px;
-    line-height: 1.1em;
+    line-height: 1.3em;
 }
 
 #legend .controls {
@@ -44,13 +45,16 @@ h5 { font-size: 1.1em }
     margin-bottom: 14px;
 }
 
-#legend .note {
-    margin-top: 7px;
-    font-size: 10px;
+#legend .controls h5 {
+    margin-bottom: 7px;
+}
+
+#legend .controls button {
+    width: 230px;
 }
 
 #legend .credits {
-    margin-top: 7px;
+    margin-top: 14px;
     line-height: 1.3em;
 }
 
@@ -65,18 +69,18 @@ h5 { font-size: 1.1em }
 }
 
 .tip {
-    color: white;
-    width: 175px;
-    background-color: black;
-    border:1px solid #ccc;
+    color: black;
+    width: 200px;
+    background-color: #F3EFE9;
+    border:1px solid black;
     font-size:14px;
     padding:7px;
 }
 
 .tip .tip-stats {
     width: 100%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #F3EFE9;
     margin-top: 7px;
 }
 
