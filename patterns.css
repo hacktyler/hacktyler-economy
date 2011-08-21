@@ -70,7 +70,7 @@ h5 { font-size: 1.1em }
 
 .tip {
     color: black;
-    width: 200px;
+    width: 275px;
     background-color: #F3EFE9;
     border:1px solid black;
     font-size:14px;
@@ -86,6 +86,12 @@ h5 { font-size: 1.1em }
 
 .tip .tip-stats .stat {
     text-align: right;
+}
+
+.tip .tip-stats .pct {
+    text-align: right;
+    width: 60px;
+    
 }
 
 .node {

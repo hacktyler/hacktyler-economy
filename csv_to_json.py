@@ -65,6 +65,12 @@ colors = generate_color()
 for row in reader:
     obj = create_obj_for_row(row)
     obj['data']['$color'] = colors.next()
+
+    obj['data']['str_establishments_pct'] = '%.2f%%' % (float(obj['data']['establishments']) / root['data']['establishments'] * 100),
+    obj['data']['str_paid_employees_pct'] = '%.2f%%' % (float(obj['data']['paid_employees']) / root['data']['paid_employees'] * 100),
+    obj['data']['str_first_quarter_payroll_pct'] = '%.2f%%' % (float(obj['data']['first_quarter_payroll']) / root['data']['first_quarter_payroll'] * 100),
+    obj['data']['str_annual_payroll_pct'] = '%.2f%%' % (float(obj['data']['annual_payroll']) / root['data']['annual_payroll'] * 100),
+
     root['children'].append(obj)
 
 with open('data.js', 'w') as f:
