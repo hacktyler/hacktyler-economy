@@ -5,7 +5,7 @@ import csv
 import json
 import random
 
-reader = csv.DictReader(open('BP_2009_00A1/clean.csv'))
+reader = csv.DictReader(open('cbp/clean.csv'))
 
 data = {}
 
