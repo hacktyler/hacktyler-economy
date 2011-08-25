@@ -40,7 +40,19 @@ function reshape_treemap(datum) {
 function create_treemap(data) {
     treemap = new $jit.TM.Squarified({
         injectInto: 'infovis',
+        levelsToShow: 1,
         titleHeight: 0,
+        Events: {  
+            enable: true,  
+            onClick: function(node) {  
+                if(node) {
+                    treemap.enter(node);
+                }
+            },  
+            onRightClick: function() {  
+                treemap.out();  
+            }  
+        },   
         Tips: {
             enable: true,
             offsetX: 20,

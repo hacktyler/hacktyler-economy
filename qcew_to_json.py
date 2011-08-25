@@ -44,7 +44,7 @@ def create_obj_for_row(row, root_obj, color):
     obj = {}
 
     obj['id'] = row['industry_code']
-    obj['name'] = industry_names[row['industry_code']]
+    obj['name'] = '%s (%s)' % (industry_names[row['industry_code']], row['industry_code'])
     obj['data'] = {
         'establishments': _int(row['annual_average_number_of_establishments']),
         'paid_employees': _int(row['annual_average_employment']),
@@ -75,29 +75,68 @@ row = reader.next()
 #colors = color_generator(360)
 
 root = create_obj_for_row(row, None, None)
-sectors = {}
-subsectors = {}
-industry_groups = {}
-industries = {}
+groups = {
+    'federal_gov': {},
+    'state_gov': {},
+    'local_gov': {},
+    'private': {}
+}
+
+for g in groups:
+    groups[g] = {
+        'sectors': {},
+        'subsectors': {},
+        'industry_groups': {},
+        'industries': {}
+    }
 
 for row in reader:
     obj = create_obj_for_row(row, root, None)
 
-    # Deal with odd-ball two sector groupings
-    if '-' in obj['id']:
-        sectors.append(obj)
-    # Skip national industry divisions
-    if len(obj['id']) == 6:
+    if row['ownership_code'] == '1':
+        ownership = 'federal_gov'
+    elif row['ownership_code'] == '2':
+        ownership = 'state_gov']
+    elif row['ownership_code'] == '3':
+        ownership = 'local_gov']
+    elif row['ownership_code'] == '5':
+        ownership = 'private'
+    else:
         continue
-    elif len(obj['id']) == 5:
-        industries.append(obj)
-    elif len(obj['id']) == 4:
-        industry_groups.append(obj)
-    elif len(obj['id']) == 3:
-        subsectors.append(obj)
-    elif len(obj['id']) == 2:
-        sectors.append(obj)
+
+    industry_code = obj['id']
+
+    # Deal with odd-ball two sector groupings
+    if '-' in industry_code:
+        groups[ownership]['sectors'][industry_code] = obj
+    # Skip national industry divisions
+    if len(industry_code) == 6:
+        continue
+    elif len(industry_code) == 5:
+        groups[ownership]['industries'][industry_code] = obj
+    elif len(industry_code) == 4:
+        groups[ownership]['industry_groups'][industry_code] = obj
+    elif len(industry_code) == 3:
+        groups[ownership]['subsectors'][industry_code] = obj
+    elif len(industry_code) == 2:
+        groups[ownership]['sectors'][industry_code] = obj
+
+for subsector in subsectors.values():
+    sector_code = subsector['id'][:2]
+
+    # Handle sectors that are grouped
+    if sector_code in ['31', '32', '33']:
+        sector_code = '31-33'
+    elif sector_code in ['44', '45']:
+        sector_code = '44-45'
+    elif sector_code in ['48', '49']:
+        sector_code = '48-49'
+
+    sectors[sector_code]['children'].append(subsector)
+
+for sector in sectors.values():
+    root['children'].append(sector)
 
 with open('data.js', 'w') as f:
-    f.write('DATA = %s' % json.dumps(root))
+    f.write('DATA = %s' % json.dumps(root, indent=4))
 
