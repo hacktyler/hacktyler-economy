@@ -89,8 +89,6 @@ def create_obj_for_row(row, root_obj, color):
 # First row is totals
 row = reader.next()
 
-#colors = color_generator(360)
-
 root = create_obj_for_row(row, None, None)
 ownership = None
 sector = None
@@ -156,21 +154,6 @@ for row in reader:
 
         subsector = obj
 
-    blah=""" # Deal with odd-ball two sector groupings
-    if '-' in industry_code:
-        groups[ownership]['sectors'][industry_code] = obj
-    # Skip national industry divisions
-    if len(industry_code) == 6:
-        continue
-    elif len(industry_code) == 5:
-        groups[ownership]['industries'][industry_code] = obj
-    elif len(industry_code) == 4:
-        groups[ownership]['industry_groups'][industry_code] = obj
-    elif len(industry_code) == 3:
-        groups[ownership]['subsectors'][industry_code] = obj
-    elif len(industry_code) == 2:
-        groups[ownership]['sectors'][industry_code] = obj"""
-
 if industry_group:
     subsector['children'].append(industry_group)
 
@@ -182,6 +165,19 @@ if sector:
 
 if ownership:
     root['children'].append(ownership)
+
+# Recursively assign colors
+def recurse_assign_colors(node):
+    for child in node['children']:
+        if len(child['children']) > 0:
+            recurse_assign_colors(child)
+
+    colors = color_generator(20)
+
+    for child in node['children']:
+        child['data']['$color'] = colors.next()
+
+recurse_assign_colors(root)
 
 with open('data.js', 'w') as f:
     f.write('DATA = %s' % json.dumps(root, indent=4))

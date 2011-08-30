@@ -8,6 +8,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$32,635,931", 
+                                "$color": "#9f3737", 
                                 "$area": 10, 
                                 "str_establishments": "10", 
                                 "paid_employees": 563, 
@@ -24,6 +25,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$32,635,931", 
+                        "$color": "#431717", 
                         "$area": 10, 
                         "str_establishments": "10", 
                         "paid_employees": 563, 
@@ -43,6 +45,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#401717", 
                                 "$area": 0, 
                                 "str_establishments": "0", 
                                 "paid_employees": 0, 
@@ -59,6 +62,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#6c3b25", 
                         "$area": 0, 
                         "str_establishments": "0", 
                         "paid_employees": 0, 
@@ -78,6 +82,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,385,123", 
+                                "$color": "#b24141", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 20, 
@@ -94,6 +99,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$1,385,123", 
+                        "$color": "#9a743a", 
                         "$area": 1, 
                         "str_establishments": "1", 
                         "paid_employees": 20, 
@@ -113,6 +119,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,242,723", 
+                                "$color": "#9b3636", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 31, 
@@ -130,6 +137,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$18,470,206", 
+                                "$color": "#bc6641", 
                                 "$area": 9, 
                                 "str_establishments": "9", 
                                 "paid_employees": 198, 
@@ -147,6 +155,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,470,612", 
+                                "$color": "#9e763b", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 38, 
@@ -164,6 +173,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$256,823", 
+                                "$color": "#464119", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 5, 
@@ -181,6 +191,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,930,516", 
+                                "$color": "#9fb642", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 49, 
@@ -198,6 +209,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$95,467", 
+                                "$color": "#496b28", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 3, 
@@ -214,6 +226,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$25,466,347", 
+                        "$color": "#bcb041", 
                         "$area": 23, 
                         "str_establishments": "23", 
                         "paid_employees": 324, 
@@ -230,6 +243,7 @@ DATA = {
             ], 
             "data": {
                 "str_annual_payroll": "$59,487,401", 
+                "$color": "#441919", 
                 "$area": 34, 
                 "str_establishments": "34", 
                 "paid_employees": 907, 
@@ -251,6 +265,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#872f2f", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -267,6 +282,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#aa3b3b", 
                         "$area": 1, 
                         "str_establishments": "1", 
                         "paid_employees": 0, 
@@ -286,6 +302,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#943737", 
                                 "$area": 9, 
                                 "str_establishments": "9", 
                                 "paid_employees": 0, 
@@ -302,6 +319,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#9c5536", 
                         "$area": 9, 
                         "str_establishments": "9", 
                         "paid_employees": 0, 
@@ -321,6 +339,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#551e1e", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -338,6 +357,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#af5e3b", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -355,6 +375,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#5a4321", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -371,6 +392,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#3f2e15", 
                         "$area": 4, 
                         "str_establishments": "4", 
                         "paid_employees": 0, 
@@ -390,6 +412,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,325,758", 
+                                "$color": "#9d3434", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 54, 
@@ -407,6 +430,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$11,845,250", 
+                                "$color": "#76412a", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 250, 
@@ -424,6 +448,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$13,117,927", 
+                                "$color": "#b48643", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 305, 
@@ -441,6 +466,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#797128", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 0, 
@@ -458,6 +484,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,516,240", 
+                                "$color": "#75872e", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 42, 
@@ -474,6 +501,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#524c1b", 
                         "$area": 26, 
                         "str_establishments": "26", 
                         "paid_employees": 0, 
@@ -490,6 +518,7 @@ DATA = {
             ], 
             "data": {
                 "str_annual_payroll": "$144,282,435", 
+                "$color": "#643724", 
                 "$area": 40, 
                 "str_establishments": "40", 
                 "paid_employees": 3063, 
@@ -511,6 +540,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#b33e3e", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -527,6 +557,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#461919", 
                         "$area": 2, 
                         "str_establishments": "2", 
                         "paid_employees": 0, 
@@ -546,6 +577,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#943737", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -562,6 +594,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#864a30", 
                         "$area": 3, 
                         "str_establishments": "3", 
                         "paid_employees": 0, 
@@ -581,6 +614,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#ae3f3f", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -597,6 +631,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#916c35", 
                         "$area": 1, 
                         "str_establishments": "1", 
                         "paid_employees": 0, 
@@ -616,6 +651,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#9e3a3a", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -632,6 +668,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#978e36", 
                         "$area": 2, 
                         "str_establishments": "2", 
                         "paid_employees": 0, 
@@ -651,6 +688,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#6b2727", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -667,6 +705,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#899e35", 
                         "$area": 1, 
                         "str_establishments": "1", 
                         "paid_employees": 0, 
@@ -686,6 +725,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#5c1f1f", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -702,6 +742,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#6a9e36", 
                         "$area": 9, 
                         "str_establishments": "9", 
                         "paid_employees": 0, 
@@ -721,6 +762,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#7e2e2e", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -738,6 +780,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#432518", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -754,6 +797,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#28521e", 
                         "$area": 4, 
                         "str_establishments": "4", 
                         "paid_employees": 0, 
@@ -773,6 +817,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#812e2e", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -789,6 +834,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$0", 
+                        "$color": "#369240", 
                         "$area": 1, 
                         "str_establishments": "1", 
                         "paid_employees": 0, 
@@ -808,6 +854,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$14,635,367", 
+                                "$color": "#8d3232", 
                                 "$area": 14, 
                                 "str_establishments": "14", 
                                 "paid_employees": 381, 
@@ -825,6 +872,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$52,254,160", 
+                                "$color": "#6b3924", 
                                 "$area": 9, 
                                 "str_establishments": "9", 
                                 "paid_employees": 1162, 
@@ -842,6 +890,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,771,504", 
+                                "$color": "#83612c", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 73, 
@@ -859,6 +908,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#8e8530", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -876,6 +926,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#758730", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -892,6 +943,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$70,699,740", 
+                        "$color": "#205736", 
                         "$area": 32, 
                         "str_establishments": "32", 
                         "paid_employees": 1646, 
@@ -908,6 +960,7 @@ DATA = {
             ], 
             "data": {
                 "str_annual_payroll": "$328,588,979", 
+                "$color": "#805e2b", 
                 "$area": 55, 
                 "str_establishments": "55", 
                 "paid_employees": 8990, 
@@ -929,6 +982,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#b13f3f", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 0, 
@@ -946,6 +1000,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#522c1c", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 0, 
@@ -963,6 +1018,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,130,681", 
+                                "$color": "#413017", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 26, 
@@ -980,6 +1036,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#3d3915", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -996,6 +1053,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$18,489,648", 
+                        "$color": "#602323", 
                         "$area": 73, 
                         "str_establishments": "73", 
                         "paid_employees": 675, 
@@ -1015,6 +1073,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$51,129,266", 
+                                "$color": "#9d3737", 
                                 "$area": 84, 
                                 "str_establishments": "84", 
                                 "paid_employees": 536, 
@@ -1032,6 +1091,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,912,582", 
+                                "$color": "#bc6641", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 74, 
@@ -1049,6 +1109,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$78,343,919", 
+                                "$color": "#966f34", 
                                 "$area": 72, 
                                 "str_establishments": "72", 
                                 "paid_employees": 1134, 
@@ -1065,6 +1126,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$132,385,767", 
+                        "$color": "#a95e3e", 
                         "$area": 160, 
                         "str_establishments": "160", 
                         "paid_employees": 1744, 
@@ -1084,6 +1146,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$4,867,305", 
+                                "$color": "#3c1515", 
                                 "$area": 14, 
                                 "str_establishments": "14", 
                                 "paid_employees": 119, 
@@ -1100,6 +1163,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$19,419,077", 
+                        "$color": "#8f6a32", 
                         "$area": 23, 
                         "str_establishments": "23", 
                         "paid_employees": 294, 
@@ -1119,6 +1183,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$22,947,189", 
+                                "$color": "#501e1e", 
                                 "$area": 43, 
                                 "str_establishments": "43", 
                                 "paid_employees": 506, 
@@ -1136,6 +1201,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$704,249", 
+                                "$color": "#5a3221", 
                                 "$area": 8, 
                                 "str_establishments": "8", 
                                 "paid_employees": 23, 
@@ -1153,6 +1219,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$10,205,711", 
+                                "$color": "#392a13", 
                                 "$area": 53, 
                                 "str_establishments": "53", 
                                 "paid_employees": 345, 
@@ -1169,6 +1236,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$138,465,847", 
+                        "$color": "#7d742b", 
                         "$area": 471, 
                         "str_establishments": "471", 
                         "paid_employees": 3807, 
@@ -1188,6 +1256,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#a73c3c", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -1205,6 +1274,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#79422b", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -1222,6 +1292,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#ab7f3b", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1239,6 +1310,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#a2983a", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 0, 
@@ -1256,6 +1328,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#798a34", 
                                 "$area": 0, 
                                 "str_establishments": "0", 
                                 "paid_employees": 0, 
@@ -1273,6 +1346,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#71a63d", 
                                 "$area": 10, 
                                 "str_establishments": "10", 
                                 "paid_employees": 0, 
@@ -1290,6 +1364,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$10,766,905", 
+                                "$color": "#418630", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 228, 
@@ -1307,6 +1382,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$8,893,826", 
+                                "$color": "#2a7431", 
                                 "$area": 15, 
                                 "str_establishments": "15", 
                                 "paid_employees": 280, 
@@ -1324,6 +1400,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$15,524,232", 
+                                "$color": "#19452b", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 188, 
@@ -1341,6 +1418,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#2f866c", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 0, 
@@ -1358,6 +1436,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$7,068,686", 
+                                "$color": "#3ba5a5", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 128, 
@@ -1375,6 +1454,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,163,263", 
+                                "$color": "#255468", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 70, 
@@ -1392,6 +1472,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#3d68a8", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -1409,6 +1490,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#191e46", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -1426,6 +1508,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,315,731", 
+                                "$color": "#271d4f", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 29, 
@@ -1443,6 +1526,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#7e3fbc", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1460,6 +1544,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#753185", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1477,6 +1562,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#903087", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -1494,6 +1580,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#ab3f80", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1511,6 +1598,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$7,727,804", 
+                                "$color": "#39131e", 
                                 "$area": 16, 
                                 "str_establishments": "16", 
                                 "paid_employees": 194, 
@@ -1527,6 +1615,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$352,212,679", 
+                        "$color": "#849737", 
                         "$area": 202, 
                         "str_establishments": "202", 
                         "paid_employees": 6465, 
@@ -1546,6 +1635,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$5,512,407", 
+                                "$color": "#a43939", 
                                 "$area": 24, 
                                 "str_establishments": "24", 
                                 "paid_employees": 155, 
@@ -1563,6 +1653,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$6,572,010", 
+                                "$color": "#864a30", 
                                 "$area": 22, 
                                 "str_establishments": "22", 
                                 "paid_employees": 237, 
@@ -1580,6 +1671,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$13,632,675", 
+                                "$color": "#8f6b34", 
                                 "$area": 59, 
                                 "str_establishments": "59", 
                                 "paid_employees": 201, 
@@ -1596,6 +1688,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$148,656,768", 
+                        "$color": "#3a571e", 
                         "$area": 305, 
                         "str_establishments": "305", 
                         "paid_employees": 3099, 
@@ -1615,6 +1708,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$15,152,014", 
+                                "$color": "#b34141", 
                                 "$area": 52, 
                                 "str_establishments": "52", 
                                 "paid_employees": 539, 
@@ -1632,6 +1726,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,097,362", 
+                                "$color": "#512d1e", 
                                 "$area": 18, 
                                 "str_establishments": "18", 
                                 "paid_employees": 84, 
@@ -1649,6 +1744,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$7,439,231", 
+                                "$color": "#785a2c", 
                                 "$area": 23, 
                                 "str_establishments": "23", 
                                 "paid_employees": 261, 
@@ -1666,6 +1762,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,167,308", 
+                                "$color": "#5a541e", 
                                 "$area": 18, 
                                 "str_establishments": "18", 
                                 "paid_employees": 86, 
@@ -1683,6 +1780,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$267,670", 
+                                "$color": "#5e6b28", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 20, 
@@ -1700,6 +1798,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$21,549,541", 
+                                "$color": "#74a940", 
                                 "$area": 75, 
                                 "str_establishments": "75", 
                                 "paid_employees": 684, 
@@ -1717,6 +1816,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$13,744,383", 
+                                "$color": "#3b772c", 
                                 "$area": 87, 
                                 "str_establishments": "87", 
                                 "paid_employees": 728, 
@@ -1734,6 +1834,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,813,285", 
+                                "$color": "#318e3a", 
                                 "$area": 16, 
                                 "str_establishments": "16", 
                                 "paid_employees": 92, 
@@ -1751,6 +1852,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$5,277,064", 
+                                "$color": "#3da567", 
                                 "$area": 12, 
                                 "str_establishments": "12", 
                                 "paid_employees": 209, 
@@ -1768,6 +1870,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$24,574,521", 
+                                "$color": "#38997c", 
                                 "$area": 37, 
                                 "str_establishments": "37", 
                                 "paid_employees": 1173, 
@@ -1785,6 +1888,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$5,669,676", 
+                                "$color": "#318484", 
                                 "$area": 32, 
                                 "str_establishments": "32", 
                                 "paid_employees": 184, 
@@ -1802,6 +1906,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,569,725", 
+                                "$color": "#285b72", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 30, 
@@ -1818,6 +1923,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$303,856,924", 
+                        "$color": "#2d6121", 
                         "$area": 733, 
                         "str_establishments": "733", 
                         "paid_employees": 11654, 
@@ -1837,6 +1943,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#612121", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 0, 
@@ -1854,6 +1961,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$7,199,639", 
+                                "$color": "#5f321f", 
                                 "$area": 25, 
                                 "str_establishments": "25", 
                                 "paid_employees": 183, 
@@ -1871,6 +1979,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#72552a", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1888,6 +1997,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#bcaf41", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1905,6 +2015,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#8a9f36", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1922,6 +2033,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#608c33", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -1939,6 +2051,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$811,655", 
+                                "$color": "#52a63d", 
                                 "$area": 10, 
                                 "str_establishments": "10", 
                                 "paid_employees": 28, 
@@ -1956,6 +2069,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#205f26", 
                                 "$area": 13, 
                                 "str_establishments": "13", 
                                 "paid_employees": 0, 
@@ -1972,6 +2086,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$133,511,154", 
+                        "$color": "#297730", 
                         "$area": 126, 
                         "str_establishments": "126", 
                         "paid_employees": 3167, 
@@ -1991,6 +2106,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,105,210", 
+                                "$color": "#612222", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 38, 
@@ -2008,6 +2124,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#562e1e", 
                                 "$area": 1, 
                                 "str_establishments": "1", 
                                 "paid_employees": 0, 
@@ -2025,6 +2142,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#7c5b2b", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -2042,6 +2160,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#504b1c", 
                                 "$area": 4, 
                                 "str_establishments": "4", 
                                 "paid_employees": 0, 
@@ -2059,6 +2178,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$946,942", 
+                                "$color": "#40491b", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 26, 
@@ -2076,6 +2196,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$619,779", 
+                                "$color": "#6ba036", 
                                 "$area": 10, 
                                 "str_establishments": "10", 
                                 "paid_employees": 17, 
@@ -2092,6 +2213,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$95,082,586", 
+                        "$color": "#163e26", 
                         "$area": 87, 
                         "str_establishments": "87", 
                         "paid_employees": 2054, 
@@ -2111,6 +2233,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,049,392", 
+                                "$color": "#441a1a", 
                                 "$area": 14, 
                                 "str_establishments": "14", 
                                 "paid_employees": 42, 
@@ -2128,6 +2251,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$9,699,309", 
+                                "$color": "#a25838", 
                                 "$area": 71, 
                                 "str_establishments": "71", 
                                 "paid_employees": 160, 
@@ -2145,6 +2269,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$28,234,608", 
+                                "$color": "#b1823b", 
                                 "$area": 123, 
                                 "str_establishments": "123", 
                                 "paid_employees": 586, 
@@ -2162,6 +2287,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$140,300", 
+                                "$color": "#7a722c", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 8, 
@@ -2178,6 +2304,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$153,037,731", 
+                        "$color": "#37997b", 
                         "$area": 401, 
                         "str_establishments": "401", 
                         "paid_employees": 2908, 
@@ -2197,6 +2324,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$4,795,687", 
+                                "$color": "#ba4141", 
                                 "$area": 41, 
                                 "str_establishments": "41", 
                                 "paid_employees": 135, 
@@ -2214,6 +2342,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,994,059", 
+                                "$color": "#422417", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 33, 
@@ -2231,6 +2360,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$239,933", 
+                                "$color": "#977137", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 6, 
@@ -2247,6 +2377,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$32,759,571", 
+                        "$color": "#287373", 
                         "$area": 221, 
                         "str_establishments": "221", 
                         "paid_employees": 980, 
@@ -2266,6 +2397,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$18,060,007", 
+                                "$color": "#812d2d", 
                                 "$area": 46, 
                                 "str_establishments": "46", 
                                 "paid_employees": 513, 
@@ -2282,6 +2414,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$227,560,492", 
+                        "$color": "#3c82a0", 
                         "$area": 576, 
                         "str_establishments": "576", 
                         "paid_employees": 3780, 
@@ -2301,6 +2434,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$30,243,558", 
+                                "$color": "#391313", 
                                 "$area": 21, 
                                 "str_establishments": "21", 
                                 "paid_employees": 600, 
@@ -2317,6 +2451,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$30,243,558", 
+                        "$color": "#24416b", 
                         "$area": 21, 
                         "str_establishments": "21", 
                         "paid_employees": 600, 
@@ -2336,6 +2471,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,674,317", 
+                                "$color": "#ba4141", 
                                 "$area": 16, 
                                 "str_establishments": "16", 
                                 "paid_employees": 115, 
@@ -2353,6 +2489,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$2,657,484", 
+                                "$color": "#73412b", 
                                 "$area": 7, 
                                 "str_establishments": "7", 
                                 "paid_employees": 93, 
@@ -2369,6 +2506,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$118,909,704", 
+                        "$color": "#2a3173", 
                         "$area": 278, 
                         "str_establishments": "278", 
                         "paid_employees": 4190, 
@@ -2388,6 +2526,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#712a2a", 
                                 "$area": 2, 
                                 "str_establishments": "2", 
                                 "paid_employees": 0, 
@@ -2404,6 +2543,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$13,591,468", 
+                        "$color": "#4f3ba2", 
                         "$area": 32, 
                         "str_establishments": "32", 
                         "paid_employees": 550, 
@@ -2423,6 +2563,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$11,605,961", 
+                                "$color": "#933333", 
                                 "$area": 8, 
                                 "str_establishments": "8", 
                                 "paid_employees": 379, 
@@ -2440,6 +2581,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#a55938", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 0, 
@@ -2457,6 +2599,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#6b4f25", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 0, 
@@ -2474,6 +2617,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$6,704,357", 
+                                "$color": "#857d31", 
                                 "$area": 34, 
                                 "str_establishments": "34", 
                                 "paid_employees": 493, 
@@ -2490,6 +2634,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$949,281,484", 
+                        "$color": "#5e318c", 
                         "$area": 543, 
                         "str_establishments": "543", 
                         "paid_employees": 19513, 
@@ -2509,6 +2654,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$20,638", 
+                                "$color": "#a63c3c", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 4, 
@@ -2526,6 +2672,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$4,127,651", 
+                                "$color": "#9b573a", 
                                 "$area": 5, 
                                 "str_establishments": "5", 
                                 "paid_employees": 144, 
@@ -2543,6 +2690,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$15,066,708", 
+                                "$color": "#82602e", 
                                 "$area": 42, 
                                 "str_establishments": "42", 
                                 "paid_employees": 802, 
@@ -2559,6 +2707,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$20,171,170", 
+                        "$color": "#632972", 
                         "$area": 58, 
                         "str_establishments": "58", 
                         "paid_employees": 1005, 
@@ -2578,6 +2727,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$0", 
+                                "$color": "#5c2121", 
                                 "$area": 3, 
                                 "str_establishments": "3", 
                                 "paid_employees": 0, 
@@ -2595,6 +2745,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,122,446", 
+                                "$color": "#8a4d33", 
                                 "$area": 10, 
                                 "str_establishments": "10", 
                                 "paid_employees": 115, 
@@ -2611,6 +2762,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$118,620,123", 
+                        "$color": "#b543aa", 
                         "$area": 354, 
                         "str_establishments": "354", 
                         "paid_employees": 8541, 
@@ -2630,6 +2782,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$762,805", 
+                                "$color": "#441717", 
                                 "$area": 18, 
                                 "str_establishments": "18", 
                                 "paid_employees": 46, 
@@ -2647,6 +2800,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$1,416,835", 
+                                "$color": "#b86845", 
                                 "$area": 11, 
                                 "str_establishments": "11", 
                                 "paid_employees": 64, 
@@ -2664,6 +2818,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$4,911,132", 
+                                "$color": "#86632f", 
                                 "$area": 24, 
                                 "str_establishments": "24", 
                                 "paid_employees": 221, 
@@ -2681,6 +2836,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$9,783,676", 
+                                "$color": "#787028", 
                                 "$area": 290, 
                                 "str_establishments": "290", 
                                 "paid_employees": 559, 
@@ -2697,6 +2853,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$79,914,916", 
+                        "$color": "#3f162f", 
                         "$area": 586, 
                         "str_establishments": "586", 
                         "paid_employees": 3331, 
@@ -2716,6 +2873,7 @@ DATA = {
                             "children": [], 
                             "data": {
                                 "str_annual_payroll": "$127,012", 
+                                "$color": "#812e2e", 
                                 "$area": 6, 
                                 "str_establishments": "6", 
                                 "paid_employees": 6, 
@@ -2732,6 +2890,7 @@ DATA = {
                     ], 
                     "data": {
                         "str_annual_payroll": "$127,012", 
+                        "$color": "#ba4367", 
                         "$area": 6, 
                         "str_establishments": "6", 
                         "paid_employees": 6, 
@@ -2748,6 +2907,7 @@ DATA = {
             ], 
             "data": {
                 "str_annual_payroll": "$3,086,297,679", 
+                "$color": "#b7ac43", 
                 "$area": 5254, 
                 "str_establishments": "5,254", 
                 "paid_employees": 78363, 
