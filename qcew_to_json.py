@@ -40,7 +40,7 @@ def splitthousands(s, sep=','):
 def add_commas(n):
     return splitthousands(str(n), ',')
 
-def create_obj_for_row(row, root_obj, color):
+def create_obj_for_row(row, root_obj):
     obj = {}
 
     ownership_code = row['ownership_code']
@@ -79,9 +79,6 @@ def create_obj_for_row(row, root_obj, color):
         obj['data']['str_paid_employees_pct'] = '%.2f%%' % (float(obj['data']['paid_employees']) / root['data']['paid_employees'] * 100)
         obj['data']['str_annual_payroll_pct'] = '%.2f%%' % (float(obj['data']['annual_payroll']) / root['data']['annual_payroll'] * 100)
 
-    if color:
-        obj['data']['$color'] = color
-
     obj['children'] = []
 
     return obj
@@ -89,7 +86,7 @@ def create_obj_for_row(row, root_obj, color):
 # First row is totals
 row = reader.next()
 
-root = create_obj_for_row(row, None, None)
+root = create_obj_for_row(row, None)
 ownership = None
 sector = None
 subsector = None
@@ -103,7 +100,7 @@ for row in reader:
     if ownership_code == 4:
         continue
     
-    obj = create_obj_for_row(row, root, None)
+    obj = create_obj_for_row(row, root)
 
     # Total row
     if industry_code == '10':
