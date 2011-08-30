@@ -43,8 +43,25 @@ def add_commas(n):
 def create_obj_for_row(row, root_obj, color):
     obj = {}
 
-    obj['id'] = row['industry_code']
-    obj['name'] = '%s (%s)' % (industry_names[row['industry_code']], row['industry_code'])
+    ownership_code = row['ownership_code']
+    industry_code = row['industry_code']
+
+    obj['id'] = '%s-%s' % (ownership_code, industry_code)
+
+    if industry_code == '10':
+        if ownership_code == '0':
+            obj['name'] = 'Total'
+        elif ownership_code == '1':
+            obj['name'] = 'Federal Government'
+        elif ownership_code == '2':
+            obj['name'] = 'State Government'
+        elif ownership_code == '3':
+            obj['name'] = 'Local Government'
+        elif ownership_code == '5':
+            obj['name'] = 'Private Industry'
+    else:
+        obj['name'] = '%s (%s)' % (industry_names[row['industry_code']], row['industry_code'])
+
     obj['data'] = {
         'establishments': _int(row['annual_average_number_of_establishments']),
         'paid_employees': _int(row['annual_average_employment']),
@@ -58,9 +75,9 @@ def create_obj_for_row(row, root_obj, color):
     }
 
     if root_obj:
-        obj['data']['str_establishments_pct'] = '%.2f%%' % (float(obj['data']['establishments']) / root['data']['establishments'] * 100),
-        obj['data']['str_paid_employees_pct'] = '%.2f%%' % (float(obj['data']['paid_employees']) / root['data']['paid_employees'] * 100),
-        obj['data']['str_annual_payroll_pct'] = '%.2f%%' % (float(obj['data']['annual_payroll']) / root['data']['annual_payroll'] * 100),
+        obj['data']['str_establishments_pct'] = '%.2f%%' % (float(obj['data']['establishments']) / root['data']['establishments'] * 100)
+        obj['data']['str_paid_employees_pct'] = '%.2f%%' % (float(obj['data']['paid_employees']) / root['data']['paid_employees'] * 100)
+        obj['data']['str_annual_payroll_pct'] = '%.2f%%' % (float(obj['data']['annual_payroll']) / root['data']['annual_payroll'] * 100)
 
     if color:
         obj['data']['$color'] = color
@@ -75,38 +92,71 @@ row = reader.next()
 #colors = color_generator(360)
 
 root = create_obj_for_row(row, None, None)
-groups = {
-    'federal_gov': {},
-    'state_gov': {},
-    'local_gov': {},
-    'private': {}
-}
-
-for g in groups:
-    groups[g] = {
-        'sectors': {},
-        'subsectors': {},
-        'industry_groups': {},
-        'industries': {}
-    }
+ownership = None
+sector = None
+subsector = None
+industry_group = None
 
 for row in reader:
+    ownership_code = row['ownership_code']
+    industry_code = row['industry_code']
+
+    # Skip combined government
+    if ownership_code == 4:
+        continue
+    
     obj = create_obj_for_row(row, root, None)
 
-    if row['ownership_code'] == '1':
-        ownership = 'federal_gov'
-    elif row['ownership_code'] == '2':
-        ownership = 'state_gov']
-    elif row['ownership_code'] == '3':
-        ownership = 'local_gov']
-    elif row['ownership_code'] == '5':
-        ownership = 'private'
-    else:
+    # Total row
+    if industry_code == '10':
+        if ownership:
+            if sector:
+                if subsector:
+                    if industry_group:
+                        subsector['children'].append(industry_group)
+                        industry_group = None
+                        
+                    sector['children'].append(subsector)
+                    subsector = None
+
+                ownership['children'].append(sector)
+                sector = None
+
+            root['children'].append(ownership)
+
+        ownership = obj
+    # TODO: invalid NAICS codes?
+    elif industry_code[:2] == '10':
         continue
+    elif len(industry_code) == 2 or '-' in industry_code:
+        if sector:
+            if subsector:
+                if industry_group:
+                    subsector['children'].append(industry_group)
+                    industry_group = None
+                    
+                sector['children'].append(subsector)
+                subsector = None
 
-    industry_code = obj['id']
+            ownership['children'].append(sector)
 
-    # Deal with odd-ball two sector groupings
+        sector = obj
+    elif len(industry_code) == 3:
+        if subsector:
+            if industry_group:
+                subsector['children'].append(industry_group)
+                industry_group = None
+
+            sector['children'].append(subsector)
+
+        subsector = obj
+    elif len(industry_code) == 4:
+        if industry_group:
+            subsector['children'].append(industry_group)
+
+        subsector = obj
+
+    blah=""" # Deal with odd-ball two sector groupings
     if '-' in industry_code:
         groups[ownership]['sectors'][industry_code] = obj
     # Skip national industry divisions
@@ -119,23 +169,19 @@ for row in reader:
     elif len(industry_code) == 3:
         groups[ownership]['subsectors'][industry_code] = obj
     elif len(industry_code) == 2:
-        groups[ownership]['sectors'][industry_code] = obj
+        groups[ownership]['sectors'][industry_code] = obj"""
 
-for subsector in subsectors.values():
-    sector_code = subsector['id'][:2]
+if industry_group:
+    subsector['children'].append(industry_group)
 
-    # Handle sectors that are grouped
-    if sector_code in ['31', '32', '33']:
-        sector_code = '31-33'
-    elif sector_code in ['44', '45']:
-        sector_code = '44-45'
-    elif sector_code in ['48', '49']:
-        sector_code = '48-49'
+if subsector:
+    sector['children'].append(subsector)
 
-    sectors[sector_code]['children'].append(subsector)
+if sector:
+    ownership['children'].append(sector)
 
-for sector in sectors.values():
-    root['children'].append(sector)
+if ownership:
+    root['children'].append(ownership)
 
 with open('data.js', 'w') as f:
     f.write('DATA = %s' % json.dumps(root, indent=4))

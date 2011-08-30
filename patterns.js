@@ -22,13 +22,17 @@ function create_label(domElement, node) {
     };
 }
 
+function recurse_reshape(node, datum) {
+    node['data']['$area'] = node['data'][datum];
+
+    _.each(node['children'], function(child) {
+        recurse_reshape(child, datum);
+    });
+}
+
 function reshape_treemap(datum) {
     if (!_.isUndefined(datum)) {
-        DATA['data']['$area'] = DATA['data'][datum];
-
-        _.each(DATA['children'], function(child) {
-            child['data']['$area'] = child['data'][datum];
-        });
+        recurse_reshape(DATA, datum);
     }
 
     treemap.loadJSON(DATA);
