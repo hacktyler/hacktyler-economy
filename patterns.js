@@ -8,18 +8,20 @@ function show_tooltip(tip, node, isLeaf, domElement) {
 
 function create_label(domElement, node) {
     domElement.innerHTML = node_template(node);
+    
+    if (node.getSubnodes().length > 1) {
+        var style = domElement.style;
 
-    var style = domElement.style;
-    style.display = '';
-    style.border = '1px solid transparent';
-    
-    domElement.onmouseover = function() {
-        style.border = '1px solid #9FD4FF';
-    };
-    
-    domElement.onmouseout = function() {
-        style.border = '1px solid transparent';
-    };
+        style.cursor = 'default';
+        
+        domElement.onmouseover = function() {
+            style.cursor = 'pointer';
+        };
+        
+        domElement.onmouseout = function() {
+            style.cursor = 'default';
+        };
+    }
 }
 
 function recurse_reshape(node, datum) {
@@ -45,12 +47,16 @@ function create_treemap(data) {
     treemap = new $jit.TM.Squarified({
         injectInto: 'infovis',
         levelsToShow: 1,
-        titleHeight: 0,
+        titleHeight: 35,
         Events: {  
             enable: true,  
             onClick: function(node) {  
                 if(node) {
-                    treemap.enter(node);
+                    if (node == treemap.clickedNode) {
+                        treemap.out();
+                    } else if (node.getSubnodes().length > 1) {
+                        treemap.enter(node);
+                    }
                 }
             },  
             onRightClick: function() {  

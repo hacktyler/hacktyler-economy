@@ -98,7 +98,7 @@ h5 { font-size: 1.1em }
   color:#fff;
   font-size:14px;
   overflow: hidden;
-  cursor:pointer;
+  cursor:default;
   text-shadow:2px 2px 5px #000;
   -o-text-shadow:2px 2px 5px #000;
   -webkit-text-shadow:2px 2px 5px #000;

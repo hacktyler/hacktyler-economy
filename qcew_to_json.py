@@ -60,7 +60,7 @@ def create_obj_for_row(row, root_obj):
         elif ownership_code == '5':
             obj['name'] = 'Private Industry'
     else:
-        obj['name'] = '%s (%s)' % (industry_names[row['industry_code']], row['industry_code'])
+        obj['name'] = '%s' % industry_names[row['industry_code']]
 
     obj['data'] = {
         'establishments': _int(row['annual_average_number_of_establishments']),
