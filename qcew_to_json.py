@@ -193,6 +193,6 @@ def recurse_assign_colors(node):
 
 recurse_assign_colors(root)
 
-with open('data.js', 'w') as f:
+with open('assets/data.js', 'w') as f:
     f.write('DATA = %s' % json.dumps(root, indent=4))
 

@@ -9,7 +9,7 @@ don't sum up to 100% by very small margins.
 
 import json
 
-data = open('data.js', 'r').read()
+data = open('assets/data.js', 'r').read()
 data = data[6:]
 
 root = json.loads(data)

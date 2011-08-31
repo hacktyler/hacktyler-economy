@@ -73,6 +73,6 @@ for row in reader:
 
     root['children'].append(obj)
 
-with open('data.js', 'w') as f:
+with open('assets/data.js', 'w') as f:
     f.write('DATA = %s' % json.dumps(root))
 
