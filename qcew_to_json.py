@@ -149,7 +149,7 @@ for row in reader:
         if industry_group:
             subsector['children'].append(industry_group)
 
-        subsector = obj
+        industry_group = obj
 
 if industry_group:
     subsector['children'].append(industry_group)
@@ -169,7 +169,7 @@ def recurse_assign_colors(node):
         if len(child['children']) > 0:
             recurse_assign_colors(child)
 
-    colors = color_generator(20)
+    colors = color_generator(len(node['children']))
 
     for child in node['children']:
         child['data']['$color'] = colors.next()
