@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+"""
+Validates that all "steps" in the hierarchy sum correctly.
+
+Some private industry groups (ownership == 5) genuinely
+don't sum up to 100%.
+"""
+
 import json
 
 data = open('data.js', 'r').read()
@@ -11,11 +18,12 @@ def recurse_test_totals(node):
     if len(node['children']) == 0:
         return
 
-    expected_establishments = node['data']['establishments']
-    sum_establishments = sum([child['data']['establishments'] for child in node['children']])
+    for datum in ['establishments', 'paid_employees', 'annual_payroll']:
+        expected = node['data'][datum]
+        total = sum([child['data'][datum] for child in node['children']])
 
-    if expected_establishments != sum_establishments:
-        print '%s: %s != %s' % (node['id'], expected_establishments, sum_establishments)
+        if expected != total:
+            print '[%s] %s: %s != %s' % (datum.upper(), node['id'], expected, total)
 
     for child in node['children']:
         recurse_test_totals(child)
