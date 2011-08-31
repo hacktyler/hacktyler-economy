@@ -81,7 +81,7 @@ $(function init() {
     tooltip_template = _.template($("#tooltip-template").html());
 
     create_treemap(DATA);
-    $("button.establishments").attr('disabled', 'disabled');
+    $("button.annual_payroll").attr('disabled', 'disabled');
 
     $(window).resize(function() {
         treemap = null;

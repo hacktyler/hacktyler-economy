@@ -26,9 +26,9 @@
 
         <div class="controls">
             <h5>Redistribute the graph by:</h5>
+            <button class="annual_payroll" onclick="reshape_treemap('annual_payroll');">Total annual payroll</button>
+            <button class="paid_employees" onclick="reshape_treemap('paid_employees');">Paid employees</button><br />
             <button class="establishments" onclick="reshape_treemap('establishments');">Establishments</button><br />
-            <button class="paid_employees" onclick="reshape_treemap('paid_employees');">Number of employees</button><br />
-            <button class="annual_payroll" onclick="reshape_treemap('annual_payroll');">Total annual payroll*</button>
         </div>
 
         <p>Move your mouse over the graph for additional details.</p>
@@ -63,7 +63,7 @@
                 <td class="pct"><%= data.str_paid_employees_pct %></td>
             </tr>
             <tr>
-                <td class="label">Annual Payroll*:</td>
+                <td class="label">Annual Payroll:</td>
                 <td class="stat"><%= data.str_annual_payroll %></td>
                 <td class="pct"><%= data.str_annual_payroll_pct %></td>
             </tr>

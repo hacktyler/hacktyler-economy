@@ -69,7 +69,7 @@ def create_obj_for_row(row, root_obj):
         'paid_employees': _int(row['annual_average_employment']),
         'annual_payroll': _int(row['annual_total_wages']),
         
-        '$area': _int(row['annual_average_number_of_establishments']),
+        '$area': _int(row['annual_total_wages']),
         
         'str_establishments': add_commas(_int(row['annual_average_number_of_establishments'])),
         'str_paid_employees': add_commas(_int(row['annual_average_employment'])),
