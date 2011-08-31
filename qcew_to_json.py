@@ -63,6 +63,8 @@ def create_obj_for_row(row, root_obj):
         obj['name'] = '%s' % industry_names[row['industry_code']]
 
     obj['data'] = {
+        'status': row['annual_status_code'],
+
         'establishments': _int(row['annual_average_number_of_establishments']),
         'paid_employees': _int(row['annual_average_employment']),
         'annual_payroll': _int(row['annual_total_wages']),
@@ -162,6 +164,20 @@ if sector:
 
 if ownership:
     root['children'].append(ownership)
+
+# Recursively purge incomplete data
+def recurse_purge_incomplete(node):
+    if len(node['children']) == 0:
+        return
+
+    if any([child['data']['status'] == 'N' for child in node['children']]):
+        print 'Dropping children of %s' % node['id']
+        node['children'] = []
+
+    for child in node['children']:
+        recurse_purge_incomplete(child)
+
+recurse_purge_incomplete(root)
 
 # Recursively assign colors
 def recurse_assign_colors(node):
