@@ -45,7 +45,7 @@
 
     <script type="text/template" id="node-template">
         <div class="node-wrapper">
-            <h4><%= name %></h4>
+            <h4><%= name %><% if (getSubnodes().length > 1) { print(" &rsaquo;"); } %></h4>
         </div>
     </script>
 

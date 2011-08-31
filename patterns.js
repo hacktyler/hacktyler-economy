@@ -12,22 +12,22 @@ function create_label(domElement, node) {
     if (node.getSubnodes().length > 1) {
         var style = domElement.style;
 
-        style.cursor = 'default';
+        style.cursor = "default";
         
         domElement.onmouseover = function() {
-            style.cursor = 'pointer';
+            style.cursor = "pointer";
         };
         
         domElement.onmouseout = function() {
-            style.cursor = 'default';
+            style.cursor = "default";
         };
     }
 }
 
 function recurse_reshape(node, datum) {
-    node['data']['$area'] = node['data'][datum];
+    node["data"]["$area"] = node["data"][datum];
 
-    _.each(node['children'], function(child) {
+    _.each(node["children"], function(child) {
         recurse_reshape(child, datum);
     });
 }
