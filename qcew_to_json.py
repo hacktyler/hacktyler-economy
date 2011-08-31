@@ -50,7 +50,7 @@ def create_obj_for_row(row, root_obj):
 
     if industry_code == '10':
         if ownership_code == '0':
-            obj['name'] = 'Total'
+            obj['name'] = 'All Smith County Employers'
         elif ownership_code == '1':
             obj['name'] = 'Federal Government'
         elif ownership_code == '2':
@@ -89,6 +89,7 @@ def create_obj_for_row(row, root_obj):
 row = reader.next()
 
 root = create_obj_for_row(row, None)
+root = create_obj_for_row(row, root) # quick hack to get 100%s
 ownership = None
 sector = None
 subsector = None

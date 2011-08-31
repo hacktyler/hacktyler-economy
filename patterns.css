@@ -12,9 +12,9 @@ h1, h2, h3, h4, h5 {
     font-family: Verdana, sans-serif;
 }
 
-h1 { font-size: 2.0em; margin-bottom: 14px; } 
-h2 { font-size: 1.7em } 
-h3 { font-size: 1.5em } 
+h1 { font-size: 1.8em; margin-bottom: 14px; line-height: 1.2em; } 
+h2 { font-size: 1.6em } 
+h3 { font-size: 1.4em } 
 h4 { font-size: 1.3em } 
 h5 { font-size: 1.1em } 
 
@@ -36,7 +36,7 @@ h5 { font-size: 1.1em }
 }
 
 #legend p {
-    margin-top: 7px;
+    margin-top: 14px;
     line-height: 1.3em;
 }
 
@@ -51,6 +51,7 @@ h5 { font-size: 1.1em }
 
 #legend .controls button {
     width: 230px;
+    font-size: 14px;
 }
 
 #legend .credits {
@@ -70,7 +71,7 @@ h5 { font-size: 1.1em }
 
 .tip {
     color: black;
-    width: 275px;
+    width: 285px;
     background-color: #F3EFE9;
     border:1px solid black;
     font-size:14px;
@@ -90,7 +91,7 @@ h5 { font-size: 1.1em }
 
 .tip .tip-stats .pct {
     text-align: right;
-    width: 60px;
+    width: 70px;
     
 }
 
