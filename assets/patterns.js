@@ -10,7 +10,7 @@ function show_tooltip(tip, node, isLeaf, domElement) {
 function create_label(domElement, node) {
     domElement.innerHTML = node_template(node);
     
-    if (node.getSubnodes().length > 1) {
+    if (node.getSubnodes().length > 2) {
         var style = domElement.style;
 
         style.cursor = "default";
@@ -59,7 +59,7 @@ function create_treemap(data) {
                     if (node == treemap.clickedNode) {
                         treemap.out();
                         update_hash();
-                    } else if (node.getSubnodes().length > 1) {
+                    } else if (node.getSubnodes().length > 2) {
                         treemap.enter(node);
                         update_hash();
                     }
@@ -93,30 +93,12 @@ function parse_hash() {
     hash = window.location.hash;
 
     if (!hash) {
-        return null;
+        return;
     }
 
     hash = hash.replace('#','');
-    
-    return hash.split(',');
-}
 
-$(function init() {
-    node_template = _.template($("#node-template").html());
-    tooltip_template = _.template($("#tooltip-template").html());
-    
-    current_datum = "annual_payroll";
-    $("button.annual_payroll").attr('disabled', 'disabled');
-
-    create_treemap(DATA);
-
-    $(window).resize(function() {
-        treemap = null;
-        $("#infovis").html("");
-        create_treemap(DATA);
-    });
-
-    parts = parse_hash();
+    parts = hash.split(',');
 
     if (parts) {
         datum = parts[0];
@@ -131,4 +113,22 @@ $(function init() {
             reshape_treemap(datum);
         }
     }
+}
+
+$(function init() {
+    node_template = _.template($("#node-template").html());
+    tooltip_template = _.template($("#tooltip-template").html());
+    
+    current_datum = "annual_payroll";
+    $("button.annual_payroll").attr('disabled', 'disabled');
+
+    create_treemap(DATA);
+    parse_hash();
+
+    $(window).resize(function() {
+        treemap = null;
+        $("#infovis").html("");
+        create_treemap(DATA);
+        parse_hash();
+    });
 });
