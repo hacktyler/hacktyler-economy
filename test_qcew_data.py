@@ -4,7 +4,7 @@
 Validates that all "steps" in the hierarchy sum correctly.
 
 Some private industry groups (ownership == 5) genuinely
-don't sum up to 100%.
+don't sum up to 100% by very small margins.
 """
 
 import json

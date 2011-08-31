@@ -1,6 +1,7 @@
 var treemap = null;
 var node_template = null;
 var tooltip_template = null;
+var current_datum = null;
 
 function show_tooltip(tip, node, isLeaf, domElement) {
     tip.innerHTML = tooltip_template(node);
@@ -41,6 +42,9 @@ function reshape_treemap(datum) {
     treemap.refresh();
     $(".controls button").removeAttr('disabled');
     $(".controls button." + datum).attr('disabled', 'disabled');
+
+    current_datum = datum;
+    update_hash();
 }
 
 function create_treemap(data) {
@@ -54,14 +58,13 @@ function create_treemap(data) {
                 if(node) {
                     if (node == treemap.clickedNode) {
                         treemap.out();
+                        update_hash();
                     } else if (node.getSubnodes().length > 1) {
                         treemap.enter(node);
+                        update_hash();
                     }
                 }
-            },  
-            onRightClick: function() {  
-                treemap.out();  
-            }  
+            } 
         },   
         Tips: {
             enable: true,
@@ -76,16 +79,56 @@ function create_treemap(data) {
     treemap.refresh();
 }
 
+function update_hash(){
+    if (treemap.clickedNode) {
+        id = treemap.clickedNode.id;
+    } else {
+        id = null;
+    }
+
+    window.location.hash = [current_datum, id].join(",");
+}
+
+function parse_hash() {
+    hash = window.location.hash;
+
+    if (!hash) {
+        return null;
+    }
+
+    hash = hash.replace('#','');
+    
+    return hash.split(',');
+}
+
 $(function init() {
     node_template = _.template($("#node-template").html());
     tooltip_template = _.template($("#tooltip-template").html());
+    
+    current_datum = "annual_payroll";
+    $("button.annual_payroll").attr('disabled', 'disabled');
 
     create_treemap(DATA);
-    $("button.annual_payroll").attr('disabled', 'disabled');
 
     $(window).resize(function() {
         treemap = null;
         $("#infovis").html("");
         create_treemap(DATA);
     });
+
+    parts = parse_hash();
+
+    if (parts) {
+        datum = parts[0];
+        id = parts[1];
+
+        if (id) {
+            node = treemap.graph.getNode(id);
+            treemap.enter(node);
+        }
+
+        if (datum) {
+            reshape_treemap(datum);
+        }
+    }
 });
