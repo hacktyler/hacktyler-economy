@@ -11,7 +11,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$32,635,931", 
-                                        "$color": "#4c1b1b", 
+                                        "$color": "#4b1b1b", 
                                         "str_annual_payroll_pct": "0.90%", 
                                         "paid_employees": 563, 
                                         "str_paid_employees": "563", 
@@ -29,7 +29,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$32,635,931", 
-                                "$color": "#833030", 
+                                "$color": "#9d3838", 
                                 "str_annual_payroll_pct": "0.90%", 
                                 "paid_employees": 563, 
                                 "str_paid_employees": "563", 
@@ -47,7 +47,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$32,635,931", 
-                        "$color": "#6d2424", 
+                        "$color": "#842f2f", 
                         "str_annual_payroll_pct": "0.90%", 
                         "paid_employees": 563, 
                         "str_paid_employees": "563", 
@@ -70,7 +70,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$0", 
-                                        "$color": "#b63e3e", 
+                                        "$color": "#812b2b", 
                                         "str_annual_payroll_pct": "0.00%", 
                                         "paid_employees": 0, 
                                         "str_paid_employees": "0", 
@@ -88,7 +88,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$0", 
-                                "$color": "#b23d3d", 
+                                "$color": "#752c2c", 
                                 "str_annual_payroll_pct": "0.00%", 
                                 "paid_employees": 0, 
                                 "str_paid_employees": "0", 
@@ -106,7 +106,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$0", 
-                        "$color": "#2c4316", 
+                        "$color": "#618f33", 
                         "str_annual_payroll_pct": "0.00%", 
                         "paid_employees": 0, 
                         "str_paid_employees": "0", 
@@ -129,7 +129,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,385,123", 
-                                        "$color": "#702525", 
+                                        "$color": "#4b1919", 
                                         "str_annual_payroll_pct": "0.04%", 
                                         "paid_employees": 20, 
                                         "str_paid_employees": "20", 
@@ -147,7 +147,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$1,385,123", 
-                                "$color": "#511e1e", 
+                                "$color": "#9e3939", 
                                 "str_annual_payroll_pct": "0.04%", 
                                 "paid_employees": 20, 
                                 "str_paid_employees": "20", 
@@ -165,7 +165,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$1,385,123", 
-                        "$color": "#1a4d4d", 
+                        "$color": "#369999", 
                         "str_annual_payroll_pct": "0.04%", 
                         "paid_employees": 20, 
                         "str_paid_employees": "20", 
@@ -188,7 +188,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,242,723", 
-                                        "$color": "#4e1d1d", 
+                                        "$color": "#ba4040", 
                                         "str_annual_payroll_pct": "0.06%", 
                                         "paid_employees": 31, 
                                         "str_paid_employees": "31", 
@@ -200,13 +200,13 @@ DATA = {
                                         "str_establishments": "3"
                                     }, 
                                     "id": "1-9211", 
-                                    "name": "Executive"
+                                    "name": "Executive, legislative and general government"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$2,242,723", 
-                                "$color": "#be4040", 
+                                "$color": "#7e2c2c", 
                                 "str_annual_payroll_pct": "0.06%", 
                                 "paid_employees": 31, 
                                 "str_paid_employees": "31", 
@@ -218,7 +218,7 @@ DATA = {
                                 "str_establishments": "3"
                             }, 
                             "id": "1-921", 
-                            "name": "Executive"
+                            "name": "Executive, legislative and general government"
                         }, 
                         {
                             "children": [
@@ -227,7 +227,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$18,470,206", 
-                                        "$color": "#501e1e", 
+                                        "$color": "#702a2a", 
                                         "str_annual_payroll_pct": "0.51%", 
                                         "paid_employees": 198, 
                                         "str_paid_employees": "198", 
@@ -239,13 +239,13 @@ DATA = {
                                         "str_establishments": "9"
                                     }, 
                                     "id": "1-9221", 
-                                    "name": "Justice"
+                                    "name": "Justice, public order, and safety activities"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$18,470,206", 
-                                "$color": "#939334", 
+                                "$color": "#6f6f28", 
                                 "str_annual_payroll_pct": "0.51%", 
                                 "paid_employees": 198, 
                                 "str_paid_employees": "198", 
@@ -257,7 +257,7 @@ DATA = {
                                 "str_establishments": "9"
                             }, 
                             "id": "1-922", 
-                            "name": "Justice"
+                            "name": "Justice, public order, and safety activities"
                         }, 
                         {
                             "children": [
@@ -266,7 +266,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,470,612", 
-                                        "$color": "#622222", 
+                                        "$color": "#872e2e", 
                                         "str_annual_payroll_pct": "0.07%", 
                                         "paid_employees": 38, 
                                         "str_paid_employees": "38", 
@@ -284,7 +284,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$2,470,612", 
-                                "$color": "#359435", 
+                                "$color": "#40b240", 
                                 "str_annual_payroll_pct": "0.07%", 
                                 "paid_employees": 38, 
                                 "str_paid_employees": "38", 
@@ -305,7 +305,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$256,823", 
-                                        "$color": "#461717", 
+                                        "$color": "#752c2c", 
                                         "str_annual_payroll_pct": "0.01%", 
                                         "paid_employees": 5, 
                                         "str_paid_employees": "5", 
@@ -323,7 +323,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$256,823", 
-                                "$color": "#349090", 
+                                "$color": "#1c5353", 
                                 "str_annual_payroll_pct": "0.01%", 
                                 "paid_employees": 5, 
                                 "str_paid_employees": "5", 
@@ -344,7 +344,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,930,516", 
-                                        "$color": "#3a1515", 
+                                        "$color": "#6d2626", 
                                         "str_annual_payroll_pct": "0.05%", 
                                         "paid_employees": 49, 
                                         "str_paid_employees": "49", 
@@ -362,7 +362,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$1,930,516", 
-                                "$color": "#33338c", 
+                                "$color": "#20205a", 
                                 "str_annual_payroll_pct": "0.05%", 
                                 "paid_employees": 49, 
                                 "str_paid_employees": "49", 
@@ -383,7 +383,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$95,467", 
-                                        "$color": "#7e2e2e", 
+                                        "$color": "#511d1d", 
                                         "str_annual_payroll_pct": "0.00%", 
                                         "paid_employees": 3, 
                                         "str_paid_employees": "3", 
@@ -401,7 +401,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$95,467", 
-                                "$color": "#843184", 
+                                "$color": "#883388", 
                                 "str_annual_payroll_pct": "0.00%", 
                                 "paid_employees": 3, 
                                 "str_paid_employees": "3", 
@@ -419,7 +419,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$25,466,347", 
-                        "$color": "#2b1540", 
+                        "$color": "#49266c", 
                         "str_annual_payroll_pct": "0.70%", 
                         "paid_employees": 324, 
                         "str_paid_employees": "324", 
@@ -437,7 +437,7 @@ DATA = {
             "data": {
                 "status": "", 
                 "str_annual_payroll": "$59,487,401", 
-                "$color": "#6b2525", 
+                "$color": "#9d3838", 
                 "str_annual_payroll_pct": "1.64%", 
                 "paid_employees": 907, 
                 "str_paid_employees": "907", 
@@ -456,7 +456,7 @@ DATA = {
             "data": {
                 "status": "", 
                 "str_annual_payroll": "$144,282,435", 
-                "$color": "#273a14", 
+                "$color": "#507729", 
                 "str_annual_payroll_pct": "3.99%", 
                 "paid_employees": 3063, 
                 "str_paid_employees": "3,063", 
@@ -475,7 +475,7 @@ DATA = {
             "data": {
                 "status": "", 
                 "str_annual_payroll": "$328,588,979", 
-                "$color": "#226262", 
+                "$color": "#236262", 
                 "str_annual_payroll_pct": "9.08%", 
                 "paid_employees": 8990, 
                 "str_paid_employees": "8,990", 
@@ -498,7 +498,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$9,046,216", 
-                                "$color": "#872e2e", 
+                                "$color": "#612121", 
                                 "str_annual_payroll_pct": "0.25%", 
                                 "paid_employees": 431, 
                                 "str_paid_employees": "431", 
@@ -517,7 +517,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$2,706,166", 
-                                "$color": "#659733", 
+                                "$color": "#293c16", 
                                 "str_annual_payroll_pct": "0.07%", 
                                 "paid_employees": 97, 
                                 "str_paid_employees": "97", 
@@ -538,7 +538,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,130,681", 
-                                        "$color": "#b23d3d", 
+                                        "$color": "#782929", 
                                         "str_annual_payroll_pct": "0.03%", 
                                         "paid_employees": 26, 
                                         "str_paid_employees": "26", 
@@ -556,7 +556,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$1,130,681", 
-                                "$color": "#39a5a5", 
+                                "$color": "#246767", 
                                 "str_annual_payroll_pct": "0.03%", 
                                 "paid_employees": 26, 
                                 "str_paid_employees": "26", 
@@ -575,7 +575,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$5,606,585", 
-                                "$color": "#68349c", 
+                                "$color": "#2d1743", 
                                 "str_annual_payroll_pct": "0.15%", 
                                 "paid_employees": 121, 
                                 "str_paid_employees": "121", 
@@ -593,7 +593,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$18,489,648", 
-                        "$color": "#581e1e", 
+                        "$color": "#b23b3b", 
                         "str_annual_payroll_pct": "0.51%", 
                         "paid_employees": 675, 
                         "str_paid_employees": "675", 
@@ -605,7 +605,7 @@ DATA = {
                         "str_establishments": "73"
                     }, 
                     "id": "5-11", 
-                    "name": "Agriculture"
+                    "name": "Agriculture, forestry, fishing and hunting"
                 }, 
                 {
                     "children": [
@@ -616,7 +616,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$51,129,266", 
-                                        "$color": "#3e1515", 
+                                        "$color": "#ab3e3e", 
                                         "str_annual_payroll_pct": "1.41%", 
                                         "paid_employees": 536, 
                                         "str_paid_employees": "536", 
@@ -634,7 +634,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$51,129,266", 
-                                "$color": "#ab3f3f", 
+                                "$color": "#622020", 
                                 "str_annual_payroll_pct": "1.41%", 
                                 "paid_employees": 536, 
                                 "str_paid_employees": "536", 
@@ -655,7 +655,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,912,582", 
-                                        "$color": "#622424", 
+                                        "$color": "#5b2121", 
                                         "str_annual_payroll_pct": "0.08%", 
                                         "paid_employees": 74, 
                                         "str_paid_employees": "74", 
@@ -673,7 +673,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$2,912,582", 
-                                "$color": "#2c852c", 
+                                "$color": "#215c21", 
                                 "str_annual_payroll_pct": "0.08%", 
                                 "paid_employees": 74, 
                                 "str_paid_employees": "74", 
@@ -685,7 +685,7 @@ DATA = {
                                 "str_establishments": "4"
                             }, 
                             "id": "5-212", 
-                            "name": "Mining"
+                            "name": "Mining, except oil and gas"
                         }, 
                         {
                             "children": [
@@ -694,7 +694,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$78,343,919", 
-                                        "$color": "#401616", 
+                                        "$color": "#842f2f", 
                                         "str_annual_payroll_pct": "2.17%", 
                                         "paid_employees": 1134, 
                                         "str_paid_employees": "1,134", 
@@ -712,7 +712,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$78,343,919", 
-                                "$color": "#28286c", 
+                                "$color": "#2d2d80", 
                                 "str_annual_payroll_pct": "2.17%", 
                                 "paid_employees": 1134, 
                                 "str_paid_employees": "1,134", 
@@ -730,7 +730,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$132,385,767", 
-                        "$color": "#663723", 
+                        "$color": "#593120", 
                         "str_annual_payroll_pct": "3.66%", 
                         "paid_employees": 1744, 
                         "str_paid_employees": "1,744", 
@@ -742,7 +742,7 @@ DATA = {
                         "str_establishments": "160"
                     }, 
                     "id": "5-21", 
-                    "name": "Mining"
+                    "name": "Mining, quarrying, and oil and gas extraction"
                 }, 
                 {
                     "children": [
@@ -753,7 +753,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$10,787,298", 
-                                        "$color": "#9e3838", 
+                                        "$color": "#8f3232", 
                                         "str_annual_payroll_pct": "0.30%", 
                                         "paid_employees": 120, 
                                         "str_paid_employees": "120", 
@@ -772,7 +772,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$3,764,474", 
-                                        "$color": "#246c24", 
+                                        "$color": "#3fb63f", 
                                         "str_annual_payroll_pct": "0.10%", 
                                         "paid_employees": 56, 
                                         "str_paid_employees": "56", 
@@ -791,7 +791,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$4,867,305", 
-                                        "$color": "#1e1e5b", 
+                                        "$color": "#2e2e84", 
                                         "str_annual_payroll_pct": "0.13%", 
                                         "paid_employees": 119, 
                                         "str_paid_employees": "119", 
@@ -803,13 +803,13 @@ DATA = {
                                         "str_establishments": "14"
                                     }, 
                                     "id": "5-2213", 
-                                    "name": "Water"
+                                    "name": "Water, sewage and other systems"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$19,419,077", 
-                                "$color": "#712727", 
+                                "$color": "#7e2a2a", 
                                 "str_annual_payroll_pct": "0.54%", 
                                 "paid_employees": 294, 
                                 "str_paid_employees": "294", 
@@ -827,7 +827,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$19,419,077", 
-                        "$color": "#77582b", 
+                        "$color": "#594220", 
                         "str_annual_payroll_pct": "0.54%", 
                         "paid_employees": 294, 
                         "str_paid_employees": "294", 
@@ -850,7 +850,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$9,724,711", 
-                                        "$color": "#411717", 
+                                        "$color": "#b63d3d", 
                                         "str_annual_payroll_pct": "0.27%", 
                                         "paid_employees": 287, 
                                         "str_paid_employees": "287", 
@@ -869,7 +869,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$22,947,189", 
-                                        "$color": "#349090", 
+                                        "$color": "#297b7b", 
                                         "str_annual_payroll_pct": "0.63%", 
                                         "paid_employees": 506, 
                                         "str_paid_employees": "506", 
@@ -887,7 +887,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$32,671,900", 
-                                "$color": "#b84545", 
+                                "$color": "#6c2727", 
                                 "str_annual_payroll_pct": "0.90%", 
                                 "paid_employees": 793, 
                                 "str_paid_employees": "793", 
@@ -908,7 +908,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$9,571,439", 
-                                        "$color": "#a63a3a", 
+                                        "$color": "#622222", 
                                         "str_annual_payroll_pct": "0.26%", 
                                         "paid_employees": 184, 
                                         "str_paid_employees": "184", 
@@ -927,7 +927,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,337,019", 
-                                        "$color": "#5f8e30", 
+                                        "$color": "#466924", 
                                         "str_annual_payroll_pct": "0.04%", 
                                         "paid_employees": 43, 
                                         "str_paid_employees": "43", 
@@ -946,7 +946,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$8,004,977", 
-                                        "$color": "#338f8f", 
+                                        "$color": "#389e9e", 
                                         "str_annual_payroll_pct": "0.22%", 
                                         "paid_employees": 208, 
                                         "str_paid_employees": "208", 
@@ -958,14 +958,14 @@ DATA = {
                                         "str_establishments": "9"
                                     }, 
                                     "id": "5-2373", 
-                                    "name": "Highway"
+                                    "name": "Highway, street, and bridge construction"
                                 }, 
                                 {
                                     "children": [], 
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$704,249", 
-                                        "$color": "#7c43b5", 
+                                        "$color": "#4a286c", 
                                         "str_annual_payroll_pct": "0.02%", 
                                         "paid_employees": 23, 
                                         "str_paid_employees": "23", 
@@ -983,7 +983,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$19,617,684", 
-                                "$color": "#297629", 
+                                "$color": "#2d7c2d", 
                                 "str_annual_payroll_pct": "0.54%", 
                                 "paid_employees": 459, 
                                 "str_paid_employees": "459", 
@@ -1004,7 +1004,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$13,490,755", 
-                                        "$color": "#a63a3a", 
+                                        "$color": "#b23c3c", 
                                         "str_annual_payroll_pct": "0.37%", 
                                         "paid_employees": 462, 
                                         "str_paid_employees": "462", 
@@ -1023,7 +1023,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$39,494,166", 
-                                        "$color": "#77ad40", 
+                                        "$color": "#57802f", 
                                         "str_annual_payroll_pct": "1.09%", 
                                         "paid_employees": 982, 
                                         "str_paid_employees": "982", 
@@ -1042,7 +1042,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$22,985,631", 
-                                        "$color": "#319393", 
+                                        "$color": "#3cb1b1", 
                                         "str_annual_payroll_pct": "0.64%", 
                                         "paid_employees": 767, 
                                         "str_paid_employees": "767", 
@@ -1061,7 +1061,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$10,205,711", 
-                                        "$color": "#793db6", 
+                                        "$color": "#532b7a", 
                                         "str_annual_payroll_pct": "0.28%", 
                                         "paid_employees": 345, 
                                         "str_paid_employees": "345", 
@@ -1079,7 +1079,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$86,176,263", 
-                                "$color": "#2d2d7a", 
+                                "$color": "#343499", 
                                 "str_annual_payroll_pct": "2.38%", 
                                 "paid_employees": 2555, 
                                 "str_paid_employees": "2,555", 
@@ -1097,7 +1097,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$138,465,847", 
-                        "$color": "#5a541f", 
+                        "$color": "#9a9039", 
                         "str_annual_payroll_pct": "3.83%", 
                         "paid_employees": 3807, 
                         "str_paid_employees": "3,807", 
@@ -1116,7 +1116,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$352,212,679", 
-                        "$color": "#313814", 
+                        "$color": "#74852d", 
                         "str_annual_payroll_pct": "9.73%", 
                         "paid_employees": 6465, 
                         "str_paid_employees": "6,465", 
@@ -1137,7 +1137,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$87,734,956", 
-                                "$color": "#b63f3f", 
+                                "$color": "#481818", 
                                 "str_annual_payroll_pct": "2.42%", 
                                 "paid_employees": 1802, 
                                 "str_paid_employees": "1,802", 
@@ -1149,14 +1149,14 @@ DATA = {
                                 "str_establishments": "174"
                             }, 
                             "id": "5-423", 
-                            "name": "Merchant wholesalers"
+                            "name": "Merchant wholesalers, durable goods"
                         }, 
                         {
                             "children": [], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$47,289,137", 
-                                "$color": "#2a752a", 
+                                "$color": "#174217", 
                                 "str_annual_payroll_pct": "1.31%", 
                                 "paid_employees": 1097, 
                                 "str_paid_employees": "1,097", 
@@ -1168,7 +1168,7 @@ DATA = {
                                 "str_establishments": "73"
                             }, 
                             "id": "5-424", 
-                            "name": "Merchant wholesalers"
+                            "name": "Merchant wholesalers, nondurable goods"
                         }, 
                         {
                             "children": [
@@ -1177,7 +1177,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$13,632,675", 
-                                        "$color": "#411616", 
+                                        "$color": "#4e1c1c", 
                                         "str_annual_payroll_pct": "0.38%", 
                                         "paid_employees": 201, 
                                         "str_paid_employees": "201", 
@@ -1195,7 +1195,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$13,632,675", 
-                                "$color": "#323290", 
+                                "$color": "#222264", 
                                 "str_annual_payroll_pct": "0.38%", 
                                 "paid_employees": 201, 
                                 "str_paid_employees": "201", 
@@ -1213,7 +1213,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$148,656,768", 
-                        "$color": "#38531d", 
+                        "$color": "#71a53c", 
                         "str_annual_payroll_pct": "4.11%", 
                         "paid_employees": 3099, 
                         "str_paid_employees": "3,099", 
@@ -1236,7 +1236,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$50,076,769", 
-                                        "$color": "#993434", 
+                                        "$color": "#531c1c", 
                                         "str_annual_payroll_pct": "1.38%", 
                                         "paid_employees": 981, 
                                         "str_paid_employees": "981", 
@@ -1255,7 +1255,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$6,029,094", 
-                                        "$color": "#389f38", 
+                                        "$color": "#379537", 
                                         "str_annual_payroll_pct": "0.17%", 
                                         "paid_employees": 163, 
                                         "str_paid_employees": "163", 
@@ -1274,7 +1274,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$15,152,014", 
-                                        "$color": "#2d2d7f", 
+                                        "$color": "#39399f", 
                                         "str_annual_payroll_pct": "0.42%", 
                                         "paid_employees": 539, 
                                         "str_paid_employees": "539", 
@@ -1286,13 +1286,13 @@ DATA = {
                                         "str_establishments": "52"
                                     }, 
                                     "id": "5-4413", 
-                                    "name": "Auto parts"
+                                    "name": "Auto parts, accessories, and tire stores"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$71,257,877", 
-                                "$color": "#5b2020", 
+                                "$color": "#a63e3e", 
                                 "str_annual_payroll_pct": "1.97%", 
                                 "paid_employees": 1684, 
                                 "str_paid_employees": "1,684", 
@@ -1313,7 +1313,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$8,665,644", 
-                                        "$color": "#a03a3a", 
+                                        "$color": "#802c2c", 
                                         "str_annual_payroll_pct": "0.24%", 
                                         "paid_employees": 261, 
                                         "str_paid_employees": "261", 
@@ -1332,7 +1332,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,097,362", 
-                                        "$color": "#3fbebe", 
+                                        "$color": "#3aacac", 
                                         "str_annual_payroll_pct": "0.06%", 
                                         "paid_employees": 84, 
                                         "str_paid_employees": "84", 
@@ -1350,7 +1350,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$10,763,006", 
-                                "$color": "#4f351b", 
+                                "$color": "#4e361d", 
                                 "str_annual_payroll_pct": "0.30%", 
                                 "paid_employees": 345, 
                                 "str_paid_employees": "345", 
@@ -1371,7 +1371,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$7,439,231", 
-                                        "$color": "#8e3030", 
+                                        "$color": "#bb4242", 
                                         "str_annual_payroll_pct": "0.21%", 
                                         "paid_employees": 261, 
                                         "str_paid_employees": "261", 
@@ -1389,7 +1389,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$7,439,231", 
-                                "$color": "#72722b", 
+                                "$color": "#6d6d26", 
                                 "str_annual_payroll_pct": "0.21%", 
                                 "paid_employees": 261, 
                                 "str_paid_employees": "261", 
@@ -1410,7 +1410,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$27,138,361", 
-                                        "$color": "#6a2525", 
+                                        "$color": "#702727", 
                                         "str_annual_payroll_pct": "0.75%", 
                                         "paid_employees": 848, 
                                         "str_paid_employees": "848", 
@@ -1429,7 +1429,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,167,308", 
-                                        "$color": "#256969", 
+                                        "$color": "#256666", 
                                         "str_annual_payroll_pct": "0.06%", 
                                         "paid_employees": 86, 
                                         "str_paid_employees": "86", 
@@ -1447,7 +1447,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$29,305,669", 
-                                "$color": "#4a6f25", 
+                                "$color": "#71aa39", 
                                 "str_annual_payroll_pct": "0.81%", 
                                 "paid_employees": 933, 
                                 "str_paid_employees": "933", 
@@ -1468,7 +1468,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$31,268,067", 
-                                        "$color": "#a83e3e", 
+                                        "$color": "#872f2f", 
                                         "str_annual_payroll_pct": "0.86%", 
                                         "paid_employees": 1442, 
                                         "str_paid_employees": "1,442", 
@@ -1487,7 +1487,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$16,113,498", 
-                                        "$color": "#3da53d", 
+                                        "$color": "#38a538", 
                                         "str_annual_payroll_pct": "0.45%", 
                                         "paid_employees": 550, 
                                         "str_paid_employees": "550", 
@@ -1506,7 +1506,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$267,670", 
-                                        "$color": "#1e1e53", 
+                                        "$color": "#1e1e55", 
                                         "str_annual_payroll_pct": "0.01%", 
                                         "paid_employees": 20, 
                                         "str_paid_employees": "20", 
@@ -1518,13 +1518,13 @@ DATA = {
                                         "str_establishments": "3"
                                     }, 
                                     "id": "5-4453", 
-                                    "name": "Beer"
+                                    "name": "Beer, wine, and liquor stores"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$47,649,235", 
-                                "$color": "#143a14", 
+                                "$color": "#277427", 
                                 "str_annual_payroll_pct": "1.32%", 
                                 "paid_employees": 2012, 
                                 "str_paid_employees": "2,012", 
@@ -1545,7 +1545,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$21,549,541", 
-                                        "$color": "#8c3131", 
+                                        "$color": "#b04040", 
                                         "str_annual_payroll_pct": "0.60%", 
                                         "paid_employees": 684, 
                                         "str_paid_employees": "684", 
@@ -1563,7 +1563,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$21,549,541", 
-                                "$color": "#2a724e", 
+                                "$color": "#399b6a", 
                                 "str_annual_payroll_pct": "0.60%", 
                                 "paid_employees": 684, 
                                 "str_paid_employees": "684", 
@@ -1584,7 +1584,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$13,744,383", 
-                                        "$color": "#b43c3c", 
+                                        "$color": "#471a1a", 
                                         "str_annual_payroll_pct": "0.38%", 
                                         "paid_employees": 728, 
                                         "str_paid_employees": "728", 
@@ -1602,7 +1602,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$13,744,383", 
-                                "$color": "#339090", 
+                                "$color": "#184343", 
                                 "str_annual_payroll_pct": "0.38%", 
                                 "paid_employees": 728, 
                                 "str_paid_employees": "728", 
@@ -1623,7 +1623,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$11,763,966", 
-                                        "$color": "#6e2929", 
+                                        "$color": "#7d2e2e", 
                                         "str_annual_payroll_pct": "0.33%", 
                                         "paid_employees": 819, 
                                         "str_paid_employees": "819", 
@@ -1642,7 +1642,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,510,379", 
-                                        "$color": "#3ca13c", 
+                                        "$color": "#163e16", 
                                         "str_annual_payroll_pct": "0.04%", 
                                         "paid_employees": 103, 
                                         "str_paid_employees": "103", 
@@ -1661,7 +1661,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,813,285", 
-                                        "$color": "#343491", 
+                                        "$color": "#1f1f5c", 
                                         "str_annual_payroll_pct": "0.08%", 
                                         "paid_employees": 92, 
                                         "str_paid_employees": "92", 
@@ -1673,13 +1673,13 @@ DATA = {
                                         "str_establishments": "16"
                                     }, 
                                     "id": "5-4483", 
-                                    "name": "Jewelry"
+                                    "name": "Jewelry, luggage, and leather goods stores"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$16,087,630", 
-                                "$color": "#407cb8", 
+                                "$color": "#234466", 
                                 "str_annual_payroll_pct": "0.44%", 
                                 "paid_employees": 1014, 
                                 "str_paid_employees": "1,014", 
@@ -1700,7 +1700,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$5,260,942", 
-                                        "$color": "#4a1a1a", 
+                                        "$color": "#5f2323", 
                                         "str_annual_payroll_pct": "0.15%", 
                                         "paid_employees": 305, 
                                         "str_paid_employees": "305", 
@@ -1719,7 +1719,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$5,277,064", 
-                                        "$color": "#1a4a4a", 
+                                        "$color": "#2b7373", 
                                         "str_annual_payroll_pct": "0.15%", 
                                         "paid_employees": 209, 
                                         "str_paid_employees": "209", 
@@ -1731,13 +1731,13 @@ DATA = {
                                         "str_establishments": "12"
                                     }, 
                                     "id": "5-4512", 
-                                    "name": "Book"
+                                    "name": "Book, periodical, and music stores"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$10,538,006", 
-                                "$color": "#3b3ba3", 
+                                "$color": "#181847", 
                                 "str_annual_payroll_pct": "0.29%", 
                                 "paid_employees": 514, 
                                 "str_paid_employees": "514", 
@@ -1749,7 +1749,7 @@ DATA = {
                                 "str_establishments": "40"
                             }, 
                             "id": "5-451", 
-                            "name": "Sporting goods"
+                            "name": "Sporting goods, hobby, book and music stores"
                         }, 
                         {
                             "children": [
@@ -1758,7 +1758,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$33,521,026", 
-                                        "$color": "#3e1515", 
+                                        "$color": "#8e3232", 
                                         "str_annual_payroll_pct": "0.93%", 
                                         "paid_employees": 1669, 
                                         "str_paid_employees": "1,669", 
@@ -1777,7 +1777,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$24,574,521", 
-                                        "$color": "#194545", 
+                                        "$color": "#215e5e", 
                                         "str_annual_payroll_pct": "0.68%", 
                                         "paid_employees": 1173, 
                                         "str_paid_employees": "1,173", 
@@ -1795,7 +1795,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$58,095,547", 
-                                "$color": "#7139a8", 
+                                "$color": "#412260", 
                                 "str_annual_payroll_pct": "1.61%", 
                                 "paid_employees": 2842, 
                                 "str_paid_employees": "2,842", 
@@ -1816,7 +1816,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$606,851", 
-                                        "$color": "#993838", 
+                                        "$color": "#b93f3f", 
                                         "str_annual_payroll_pct": "0.02%", 
                                         "paid_employees": 39, 
                                         "str_paid_employees": "39", 
@@ -1835,7 +1835,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$7,517,858", 
-                                        "$color": "#2b3f17", 
+                                        "$color": "#547c2c", 
                                         "str_annual_payroll_pct": "0.21%", 
                                         "paid_employees": 266, 
                                         "str_paid_employees": "266", 
@@ -1847,14 +1847,14 @@ DATA = {
                                         "str_establishments": "23"
                                     }, 
                                     "id": "5-4532", 
-                                    "name": "Office supplies"
+                                    "name": "Office supplies, stationery, and gift stores"
                                 }, 
                                 {
                                     "children": [], 
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,120,178", 
-                                        "$color": "#308c8c", 
+                                        "$color": "#40b2b2", 
                                         "str_annual_payroll_pct": "0.03%", 
                                         "paid_employees": 91, 
                                         "str_paid_employees": "91", 
@@ -1873,7 +1873,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$5,669,676", 
-                                        "$color": "#351d4e", 
+                                        "$color": "#7b3fb6", 
                                         "str_annual_payroll_pct": "0.16%", 
                                         "paid_employees": 184, 
                                         "str_paid_employees": "184", 
@@ -1891,7 +1891,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$14,914,563", 
-                                "$color": "#872e87", 
+                                "$color": "#943294", 
                                 "str_annual_payroll_pct": "0.41%", 
                                 "paid_employees": 579, 
                                 "str_paid_employees": "579", 
@@ -1912,7 +1912,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$95,937", 
-                                        "$color": "#8b3434", 
+                                        "$color": "#5a2121", 
                                         "str_annual_payroll_pct": "0.00%", 
                                         "paid_employees": 5, 
                                         "str_paid_employees": "5", 
@@ -1931,7 +1931,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$846,574", 
-                                        "$color": "#338833", 
+                                        "$color": "#277727", 
                                         "str_annual_payroll_pct": "0.02%", 
                                         "paid_employees": 23, 
                                         "str_paid_employees": "23", 
@@ -1950,7 +1950,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,569,725", 
-                                        "$color": "#35358e", 
+                                        "$color": "#4040b5", 
                                         "str_annual_payroll_pct": "0.04%", 
                                         "paid_employees": 30, 
                                         "str_paid_employees": "30", 
@@ -1968,7 +1968,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$2,512,236", 
-                                "$color": "#73274d", 
+                                "$color": "#42162c", 
                                 "str_annual_payroll_pct": "0.07%", 
                                 "paid_employees": 58, 
                                 "str_paid_employees": "58", 
@@ -1986,7 +1986,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$303,856,924", 
-                        "$color": "#57b73f", 
+                        "$color": "#326a24", 
                         "str_annual_payroll_pct": "8.40%", 
                         "paid_employees": 11654, 
                         "str_paid_employees": "11,654", 
@@ -2005,7 +2005,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$133,511,154", 
-                        "$color": "#379a41", 
+                        "$color": "#1c5021", 
                         "str_annual_payroll_pct": "3.69%", 
                         "paid_employees": 3167, 
                         "str_paid_employees": "3,167", 
@@ -2028,7 +2028,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$3,311,770", 
-                                        "$color": "#b84242", 
+                                        "$color": "#411717", 
                                         "str_annual_payroll_pct": "0.09%", 
                                         "paid_employees": 54, 
                                         "str_paid_employees": "54", 
@@ -2040,14 +2040,14 @@ DATA = {
                                         "str_establishments": "10"
                                     }, 
                                     "id": "5-5111", 
-                                    "name": "Newspaper"
+                                    "name": "Newspaper, book, and directory publishers"
                                 }, 
                                 {
                                     "children": [], 
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,105,210", 
-                                        "$color": "#276d6d", 
+                                        "$color": "#286d6d", 
                                         "str_annual_payroll_pct": "0.06%", 
                                         "paid_employees": 38, 
                                         "str_paid_employees": "38", 
@@ -2065,7 +2065,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$5,416,980", 
-                                "$color": "#642424", 
+                                "$color": "#602323", 
                                 "str_annual_payroll_pct": "0.15%", 
                                 "paid_employees": 92, 
                                 "str_paid_employees": "92", 
@@ -2077,14 +2077,14 @@ DATA = {
                                 "str_establishments": "14"
                             }, 
                             "id": "5-511", 
-                            "name": "Publishing industries"
+                            "name": "Publishing industries, except Internet"
                         }, 
                         {
                             "children": [], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$1,451,039", 
-                                "$color": "#a3a337", 
+                                "$color": "#a7a73e", 
                                 "str_annual_payroll_pct": "0.04%", 
                                 "paid_employees": 114, 
                                 "str_paid_employees": "114", 
@@ -2103,7 +2103,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$16,977,085", 
-                                "$color": "#37a037", 
+                                "$color": "#3cac3c", 
                                 "str_annual_payroll_pct": "0.47%", 
                                 "paid_employees": 374, 
                                 "str_paid_employees": "374", 
@@ -2115,14 +2115,14 @@ DATA = {
                                 "str_establishments": "12"
                             }, 
                             "id": "5-515", 
-                            "name": "Broadcasting"
+                            "name": "Broadcasting, except Internet"
                         }, 
                         {
                             "children": [], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$69,670,761", 
-                                "$color": "#1f5353", 
+                                "$color": "#267070", 
                                 "str_annual_payroll_pct": "1.93%", 
                                 "paid_employees": 1430, 
                                 "str_paid_employees": "1,430", 
@@ -2143,7 +2143,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$946,942", 
-                                        "$color": "#8c3030", 
+                                        "$color": "#752828", 
                                         "str_annual_payroll_pct": "0.03%", 
                                         "paid_employees": 26, 
                                         "str_paid_employees": "26", 
@@ -2155,13 +2155,13 @@ DATA = {
                                         "str_establishments": "6"
                                     }, 
                                     "id": "5-5182", 
-                                    "name": "Data processing"
+                                    "name": "Data processing, hosting and related services"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$946,942", 
-                                "$color": "#333394", 
+                                "$color": "#161640", 
                                 "str_annual_payroll_pct": "0.03%", 
                                 "paid_employees": 26, 
                                 "str_paid_employees": "26", 
@@ -2173,7 +2173,7 @@ DATA = {
                                 "str_establishments": "6"
                             }, 
                             "id": "5-518", 
-                            "name": "Data processing"
+                            "name": "Data processing, hosting and related services"
                         }, 
                         {
                             "children": [
@@ -2182,7 +2182,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$619,779", 
-                                        "$color": "#602121", 
+                                        "$color": "#ae3a3a", 
                                         "str_annual_payroll_pct": "0.02%", 
                                         "paid_employees": 17, 
                                         "str_paid_employees": "17", 
@@ -2200,7 +2200,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$619,779", 
-                                "$color": "#7e307e", 
+                                "$color": "#612261", 
                                 "str_annual_payroll_pct": "0.02%", 
                                 "paid_employees": 17, 
                                 "str_paid_employees": "17", 
@@ -2218,7 +2218,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$95,082,586", 
-                        "$color": "#3aa163", 
+                        "$color": "#36965d", 
                         "str_annual_payroll_pct": "2.63%", 
                         "paid_employees": 2054, 
                         "str_paid_employees": "2,054", 
@@ -2237,7 +2237,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$153,037,731", 
-                        "$color": "#40b18f", 
+                        "$color": "#40ac8b", 
                         "str_annual_payroll_pct": "4.23%", 
                         "paid_employees": 2908, 
                         "str_paid_employees": "2,908", 
@@ -2260,7 +2260,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$9,843,515", 
-                                        "$color": "#4c1c1c", 
+                                        "$color": "#582121", 
                                         "str_annual_payroll_pct": "0.27%", 
                                         "paid_employees": 355, 
                                         "str_paid_employees": "355", 
@@ -2279,7 +2279,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$5,241,851", 
-                                        "$color": "#246424", 
+                                        "$color": "#338c33", 
                                         "str_annual_payroll_pct": "0.14%", 
                                         "paid_employees": 145, 
                                         "str_paid_employees": "145", 
@@ -2298,7 +2298,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$4,795,687", 
-                                        "$color": "#3b3bad", 
+                                        "$color": "#181842", 
                                         "str_annual_payroll_pct": "0.13%", 
                                         "paid_employees": 135, 
                                         "str_paid_employees": "135", 
@@ -2316,7 +2316,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$19,881,053", 
-                                "$color": "#6e2929", 
+                                "$color": "#843030", 
                                 "str_annual_payroll_pct": "0.55%", 
                                 "paid_employees": 634, 
                                 "str_paid_employees": "634", 
@@ -2337,7 +2337,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,741,460", 
-                                        "$color": "#501d1d", 
+                                        "$color": "#a03636", 
                                         "str_annual_payroll_pct": "0.05%", 
                                         "paid_employees": 68, 
                                         "str_paid_employees": "68", 
@@ -2356,7 +2356,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$7,184,696", 
-                                        "$color": "#4a6c27", 
+                                        "$color": "#2b4017", 
                                         "str_annual_payroll_pct": "0.20%", 
                                         "paid_employees": 189, 
                                         "str_paid_employees": "189", 
@@ -2375,7 +2375,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,718,370", 
-                                        "$color": "#276b6b", 
+                                        "$color": "#3a9e9e", 
                                         "str_annual_payroll_pct": "0.05%", 
                                         "paid_employees": 50, 
                                         "str_paid_employees": "50", 
@@ -2394,7 +2394,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,994,059", 
-                                        "$color": "#532b7b", 
+                                        "$color": "#442463", 
                                         "str_annual_payroll_pct": "0.06%", 
                                         "paid_employees": 33, 
                                         "str_paid_employees": "33", 
@@ -2412,7 +2412,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$12,638,585", 
-                                "$color": "#205a20", 
+                                "$color": "#2f892f", 
                                 "str_annual_payroll_pct": "0.35%", 
                                 "paid_employees": 340, 
                                 "str_paid_employees": "340", 
@@ -2433,7 +2433,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$239,933", 
-                                        "$color": "#7d2b2b", 
+                                        "$color": "#993636", 
                                         "str_annual_payroll_pct": "0.01%", 
                                         "paid_employees": 6, 
                                         "str_paid_employees": "6", 
@@ -2451,7 +2451,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$239,933", 
-                                "$color": "#35359b", 
+                                "$color": "#161642", 
                                 "str_annual_payroll_pct": "0.01%", 
                                 "paid_employees": 6, 
                                 "str_paid_employees": "6", 
@@ -2469,7 +2469,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$32,759,571", 
-                        "$color": "#308c8c", 
+                        "$color": "#3eb2b2", 
                         "str_annual_payroll_pct": "0.91%", 
                         "paid_employees": 980, 
                         "str_paid_employees": "980", 
@@ -2492,7 +2492,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$70,974,891", 
-                                        "$color": "#3c1414", 
+                                        "$color": "#9c3838", 
                                         "str_annual_payroll_pct": "1.96%", 
                                         "paid_employees": 897, 
                                         "str_paid_employees": "897", 
@@ -2511,7 +2511,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$27,752,504", 
-                                        "$color": "#7b612b", 
+                                        "$color": "#b68f43", 
                                         "str_annual_payroll_pct": "0.77%", 
                                         "paid_employees": 546, 
                                         "str_paid_employees": "546", 
@@ -2530,7 +2530,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$86,324,427", 
-                                        "$color": "#7c9e36", 
+                                        "$color": "#8eb540", 
                                         "str_annual_payroll_pct": "2.39%", 
                                         "paid_employees": 1351, 
                                         "str_paid_employees": "1,351", 
@@ -2549,7 +2549,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,283,936", 
-                                        "$color": "#225d22", 
+                                        "$color": "#1c4d1c", 
                                         "str_annual_payroll_pct": "0.04%", 
                                         "paid_employees": 46, 
                                         "str_paid_employees": "46", 
@@ -2568,7 +2568,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$6,718,272", 
-                                        "$color": "#349a78", 
+                                        "$color": "#215846", 
                                         "str_annual_payroll_pct": "0.19%", 
                                         "paid_employees": 160, 
                                         "str_paid_employees": "160", 
@@ -2587,7 +2587,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$13,272,117", 
-                                        "$color": "#337698", 
+                                        "$color": "#1f475b", 
                                         "str_annual_payroll_pct": "0.37%", 
                                         "paid_employees": 198, 
                                         "str_paid_employees": "198", 
@@ -2606,7 +2606,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$672,223", 
-                                        "$color": "#161642", 
+                                        "$color": "#191944", 
                                         "str_annual_payroll_pct": "0.02%", 
                                         "paid_employees": 4, 
                                         "str_paid_employees": "4", 
@@ -2625,7 +2625,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,502,115", 
-                                        "$color": "#401d51", 
+                                        "$color": "#60297b", 
                                         "str_annual_payroll_pct": "0.07%", 
                                         "paid_employees": 68, 
                                         "str_paid_employees": "68", 
@@ -2637,14 +2637,14 @@ DATA = {
                                         "str_establishments": "13"
                                     }, 
                                     "id": "5-5418", 
-                                    "name": "Advertising"
+                                    "name": "Advertising, PR, and related services"
                                 }, 
                                 {
                                     "children": [], 
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$18,060,007", 
-                                        "$color": "#b4438f", 
+                                        "$color": "#a83983", 
                                         "str_annual_payroll_pct": "0.50%", 
                                         "paid_employees": 513, 
                                         "str_paid_employees": "513", 
@@ -2662,7 +2662,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$227,560,492", 
-                                "$color": "#572020", 
+                                "$color": "#883131", 
                                 "str_annual_payroll_pct": "6.29%", 
                                 "paid_employees": 3780, 
                                 "str_paid_employees": "3,780", 
@@ -2680,7 +2680,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$227,560,492", 
-                        "$color": "#387c9a", 
+                        "$color": "#36758f", 
                         "str_annual_payroll_pct": "6.29%", 
                         "paid_employees": 3780, 
                         "str_paid_employees": "3,780", 
@@ -2703,7 +2703,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$30,243,558", 
-                                        "$color": "#b74444", 
+                                        "$color": "#762a2a", 
                                         "str_annual_payroll_pct": "0.84%", 
                                         "paid_employees": 600, 
                                         "str_paid_employees": "600", 
@@ -2721,7 +2721,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$30,243,558", 
-                                "$color": "#391313", 
+                                "$color": "#a03737", 
                                 "str_annual_payroll_pct": "0.84%", 
                                 "paid_employees": 600, 
                                 "str_paid_employees": "600", 
@@ -2739,7 +2739,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$30,243,558", 
-                        "$color": "#3f6fb7", 
+                        "$color": "#2f5184", 
                         "str_annual_payroll_pct": "0.84%", 
                         "paid_employees": 600, 
                         "str_paid_employees": "600", 
@@ -2760,7 +2760,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$112,711,982", 
-                                "$color": "#a53e3e", 
+                                "$color": "#9a3737", 
                                 "str_annual_payroll_pct": "3.11%", 
                                 "paid_employees": 3994, 
                                 "str_paid_employees": "3,994", 
@@ -2781,7 +2781,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,697,002", 
-                                        "$color": "#ae4040", 
+                                        "$color": "#5b1f1f", 
                                         "str_annual_payroll_pct": "0.05%", 
                                         "paid_employees": 66, 
                                         "str_paid_employees": "66", 
@@ -2800,7 +2800,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,843,236", 
-                                        "$color": "#369636", 
+                                        "$color": "#359035", 
                                         "str_annual_payroll_pct": "0.05%", 
                                         "paid_employees": 37, 
                                         "str_paid_employees": "37", 
@@ -2819,7 +2819,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$2,657,484", 
-                                        "$color": "#323287", 
+                                        "$color": "#343495", 
                                         "str_annual_payroll_pct": "0.07%", 
                                         "paid_employees": 93, 
                                         "str_paid_employees": "93", 
@@ -2837,7 +2837,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$6,197,722", 
-                                "$color": "#40baba", 
+                                "$color": "#399898", 
                                 "str_annual_payroll_pct": "0.17%", 
                                 "paid_employees": 196, 
                                 "str_paid_employees": "196", 
@@ -2855,7 +2855,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$118,909,704", 
-                        "$color": "#3c47b0", 
+                        "$color": "#3c48b3", 
                         "str_annual_payroll_pct": "3.29%", 
                         "paid_employees": 4190, 
                         "str_paid_employees": "4,190", 
@@ -2876,7 +2876,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$13,591,468", 
-                                "$color": "#642525", 
+                                "$color": "#b23c3c", 
                                 "str_annual_payroll_pct": "0.38%", 
                                 "paid_employees": 550, 
                                 "str_paid_employees": "550", 
@@ -2894,7 +2894,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$13,591,468", 
-                        "$color": "#251b50", 
+                        "$color": "#5941ba", 
                         "str_annual_payroll_pct": "0.38%", 
                         "paid_employees": 550, 
                         "str_paid_employees": "550", 
@@ -2917,7 +2917,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$366,948,959", 
-                                        "$color": "#833030", 
+                                        "$color": "#782b2b", 
                                         "str_annual_payroll_pct": "10.14%", 
                                         "paid_employees": 3138, 
                                         "str_paid_employees": "3,138", 
@@ -2936,7 +2936,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$45,706,854", 
-                                        "$color": "#a8973c", 
+                                        "$color": "#71662a", 
                                         "str_annual_payroll_pct": "1.26%", 
                                         "paid_employees": 860, 
                                         "str_paid_employees": "860", 
@@ -2955,7 +2955,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$14,476,084", 
-                                        "$color": "#559a38", 
+                                        "$color": "#61b43d", 
                                         "str_annual_payroll_pct": "0.40%", 
                                         "paid_employees": 410, 
                                         "str_paid_employees": "410", 
@@ -2974,7 +2974,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$8,697,777", 
-                                        "$color": "#379169", 
+                                        "$color": "#2e825c", 
                                         "str_annual_payroll_pct": "0.24%", 
                                         "paid_employees": 221, 
                                         "str_paid_employees": "221", 
@@ -2993,7 +2993,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$9,227,044", 
-                                        "$color": "#2a5b7c", 
+                                        "$color": "#336688", 
                                         "str_annual_payroll_pct": "0.25%", 
                                         "paid_employees": 241, 
                                         "str_paid_employees": "241", 
@@ -3012,7 +3012,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$82,230,794", 
-                                        "$color": "#251948", 
+                                        "$color": "#3d2b73", 
                                         "str_annual_payroll_pct": "2.27%", 
                                         "paid_employees": 3586, 
                                         "str_paid_employees": "3,586", 
@@ -3031,7 +3031,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$11,605,961", 
-                                        "$color": "#ad3ca1", 
+                                        "$color": "#ab3aa0", 
                                         "str_annual_payroll_pct": "0.32%", 
                                         "paid_employees": 379, 
                                         "str_paid_employees": "379", 
@@ -3049,7 +3049,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$538,893,473", 
-                                "$color": "#612323", 
+                                "$color": "#a93f3f", 
                                 "str_annual_payroll_pct": "14.89%", 
                                 "paid_employees": 8835, 
                                 "str_paid_employees": "8,835", 
@@ -3068,7 +3068,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$331,216,869", 
-                                "$color": "#52792a", 
+                                "$color": "#639333", 
                                 "str_annual_payroll_pct": "9.15%", 
                                 "paid_employees": 7234, 
                                 "str_paid_employees": "7,234", 
@@ -3087,7 +3087,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$56,756,708", 
-                                "$color": "#266969", 
+                                "$color": "#2f8e8e", 
                                 "str_annual_payroll_pct": "1.57%", 
                                 "paid_employees": 2349, 
                                 "str_paid_employees": "2,349", 
@@ -3108,7 +3108,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$5,582,673", 
-                                        "$color": "#a73838", 
+                                        "$color": "#7c2b2b", 
                                         "str_annual_payroll_pct": "0.15%", 
                                         "paid_employees": 214, 
                                         "str_paid_employees": "214", 
@@ -3127,7 +3127,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$3,718,652", 
-                                        "$color": "#39541e", 
+                                        "$color": "#2c4116", 
                                         "str_annual_payroll_pct": "0.10%", 
                                         "paid_employees": 153, 
                                         "str_paid_employees": "153", 
@@ -3146,7 +3146,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$6,408,752", 
-                                        "$color": "#287070", 
+                                        "$color": "#40b9b9", 
                                         "str_annual_payroll_pct": "0.18%", 
                                         "paid_employees": 234, 
                                         "str_paid_employees": "234", 
@@ -3165,7 +3165,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$6,704,357", 
-                                        "$color": "#48246c", 
+                                        "$color": "#703ca4", 
                                         "str_annual_payroll_pct": "0.19%", 
                                         "paid_employees": 493, 
                                         "str_paid_employees": "493", 
@@ -3183,7 +3183,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$22,414,434", 
-                                "$color": "#4d2971", 
+                                "$color": "#371c52", 
                                 "str_annual_payroll_pct": "0.62%", 
                                 "paid_employees": 1094, 
                                 "str_paid_employees": "1,094", 
@@ -3201,7 +3201,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$949,281,484", 
-                        "$color": "#311a47", 
+                        "$color": "#783eb2", 
                         "str_annual_payroll_pct": "26.23%", 
                         "paid_employees": 19513, 
                         "str_paid_employees": "19,513", 
@@ -3222,7 +3222,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$522,803", 
-                                "$color": "#ae3b3b", 
+                                "$color": "#3e1717", 
                                 "str_annual_payroll_pct": "0.01%", 
                                 "paid_employees": 21, 
                                 "str_paid_employees": "21", 
@@ -3243,7 +3243,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$4,127,651", 
-                                        "$color": "#b94040", 
+                                        "$color": "#762828", 
                                         "str_annual_payroll_pct": "0.11%", 
                                         "paid_employees": 144, 
                                         "str_paid_employees": "144", 
@@ -3255,13 +3255,13 @@ DATA = {
                                         "str_establishments": "5"
                                     }, 
                                     "id": "5-7121", 
-                                    "name": "Museums"
+                                    "name": "Museums, historical sites, zoos, and parks"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$4,127,651", 
-                                "$color": "#1b4d1b", 
+                                "$color": "#338733", 
                                 "str_annual_payroll_pct": "0.11%", 
                                 "paid_employees": 144, 
                                 "str_paid_employees": "144", 
@@ -3273,14 +3273,14 @@ DATA = {
                                 "str_establishments": "5"
                             }, 
                             "id": "5-712", 
-                            "name": "Museums"
+                            "name": "Museums, historical sites, zoos, and parks"
                         }, 
                         {
                             "children": [], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$15,520,716", 
-                                "$color": "#14143c", 
+                                "$color": "#151541", 
                                 "str_annual_payroll_pct": "0.43%", 
                                 "paid_employees": 840, 
                                 "str_paid_employees": "840", 
@@ -3292,13 +3292,13 @@ DATA = {
                                 "str_establishments": "46"
                             }, 
                             "id": "5-713", 
-                            "name": "Amusements"
+                            "name": "Amusements, gambling, and recreation"
                         }
                     ], 
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$20,171,170", 
-                        "$color": "#622771", 
+                        "$color": "#6e2b7f", 
                         "str_annual_payroll_pct": "0.56%", 
                         "paid_employees": 1005, 
                         "str_paid_employees": "1,005", 
@@ -3310,7 +3310,7 @@ DATA = {
                         "str_establishments": "58"
                     }, 
                     "id": "5-71", 
-                    "name": "Arts"
+                    "name": "Arts, entertainment, and recreation"
                 }, 
                 {
                     "children": [
@@ -3319,7 +3319,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$18,619,880", 
-                                "$color": "#742828", 
+                                "$color": "#ac3a3a", 
                                 "str_annual_payroll_pct": "0.51%", 
                                 "paid_employees": 1051, 
                                 "str_paid_employees": "1,051", 
@@ -3340,7 +3340,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$49,240,259", 
-                                        "$color": "#592222", 
+                                        "$color": "#8e3434", 
                                         "str_annual_payroll_pct": "1.36%", 
                                         "paid_employees": 3412, 
                                         "str_paid_employees": "3,412", 
@@ -3359,7 +3359,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$47,987,172", 
-                                        "$color": "#496c27", 
+                                        "$color": "#38541d", 
                                         "str_annual_payroll_pct": "1.33%", 
                                         "paid_employees": 3882, 
                                         "str_paid_employees": "3,882", 
@@ -3378,7 +3378,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,650,366", 
-                                        "$color": "#1d5353", 
+                                        "$color": "#2b8181", 
                                         "str_annual_payroll_pct": "0.05%", 
                                         "paid_employees": 82, 
                                         "str_paid_employees": "82", 
@@ -3397,7 +3397,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,122,446", 
-                                        "$color": "#6f3ba3", 
+                                        "$color": "#522c79", 
                                         "str_annual_payroll_pct": "0.03%", 
                                         "paid_employees": 115, 
                                         "str_paid_employees": "115", 
@@ -3409,13 +3409,13 @@ DATA = {
                                         "str_establishments": "10"
                                     }, 
                                     "id": "5-7224", 
-                                    "name": "Drinking places"
+                                    "name": "Drinking places, alcoholic beverages"
                                 }
                             ], 
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$100,000,243", 
-                                "$color": "#379797", 
+                                "$color": "#184242", 
                                 "str_annual_payroll_pct": "2.76%", 
                                 "paid_employees": 7491, 
                                 "str_paid_employees": "7,491", 
@@ -3433,7 +3433,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$118,620,123", 
-                        "$color": "#702969", 
+                        "$color": "#933389", 
                         "str_annual_payroll_pct": "3.28%", 
                         "paid_employees": 8541, 
                         "str_paid_employees": "8,541", 
@@ -3456,7 +3456,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$20,903,732", 
-                                        "$color": "#a63a3a", 
+                                        "$color": "#ba4343", 
                                         "str_annual_payroll_pct": "0.58%", 
                                         "paid_employees": 636, 
                                         "str_paid_employees": "636", 
@@ -3475,7 +3475,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$3,567,291", 
-                                        "$color": "#6ea13c", 
+                                        "$color": "#6a9c38", 
                                         "str_annual_payroll_pct": "0.10%", 
                                         "paid_employees": 59, 
                                         "str_paid_employees": "59", 
@@ -3494,7 +3494,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$6,315,877", 
-                                        "$color": "#3ba6a6", 
+                                        "$color": "#2c7a7a", 
                                         "str_annual_payroll_pct": "0.17%", 
                                         "paid_employees": 168, 
                                         "str_paid_employees": "168", 
@@ -3513,7 +3513,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$762,805", 
-                                        "$color": "#502a76", 
+                                        "$color": "#733cab", 
                                         "str_annual_payroll_pct": "0.02%", 
                                         "paid_employees": 46, 
                                         "str_paid_employees": "46", 
@@ -3531,7 +3531,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$31,549,705", 
-                                "$color": "#642222", 
+                                "$color": "#732828", 
                                 "str_annual_payroll_pct": "0.87%", 
                                 "paid_employees": 909, 
                                 "str_paid_employees": "909", 
@@ -3552,7 +3552,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$5,051,654", 
-                                        "$color": "#b74040", 
+                                        "$color": "#6a2424", 
                                         "str_annual_payroll_pct": "0.14%", 
                                         "paid_employees": 293, 
                                         "str_paid_employees": "293", 
@@ -3571,7 +3571,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$3,329,862", 
-                                        "$color": "#51782b", 
+                                        "$color": "#75ab3e", 
                                         "str_annual_payroll_pct": "0.09%", 
                                         "paid_employees": 125, 
                                         "str_paid_employees": "125", 
@@ -3590,7 +3590,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$8,317,310", 
-                                        "$color": "#267171", 
+                                        "$color": "#256767", 
                                         "str_annual_payroll_pct": "0.23%", 
                                         "paid_employees": 400, 
                                         "str_paid_employees": "400", 
@@ -3609,7 +3609,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$1,416,835", 
-                                        "$color": "#2a163e", 
+                                        "$color": "#3c1f58", 
                                         "str_annual_payroll_pct": "0.04%", 
                                         "paid_employees": 64, 
                                         "str_paid_employees": "64", 
@@ -3627,7 +3627,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$18,115,661", 
-                                "$color": "#5c892f", 
+                                "$color": "#6ca136", 
                                 "str_annual_payroll_pct": "0.50%", 
                                 "paid_employees": 882, 
                                 "str_paid_employees": "882", 
@@ -3646,7 +3646,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$20,465,874", 
-                                "$color": "#246a6a", 
+                                "$color": "#3fafaf", 
                                 "str_annual_payroll_pct": "0.57%", 
                                 "paid_employees": 981, 
                                 "str_paid_employees": "981", 
@@ -3667,7 +3667,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$9,783,676", 
-                                        "$color": "#b74141", 
+                                        "$color": "#571d1d", 
                                         "str_annual_payroll_pct": "0.27%", 
                                         "paid_employees": 559, 
                                         "str_paid_employees": "559", 
@@ -3685,7 +3685,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$9,783,676", 
-                                "$color": "#61358d", 
+                                "$color": "#773cb2", 
                                 "str_annual_payroll_pct": "0.27%", 
                                 "paid_employees": 559, 
                                 "str_paid_employees": "559", 
@@ -3703,7 +3703,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$79,914,916", 
-                        "$color": "#612248", 
+                        "$color": "#b13f83", 
                         "str_annual_payroll_pct": "2.21%", 
                         "paid_employees": 3331, 
                         "str_paid_employees": "3,331", 
@@ -3715,7 +3715,7 @@ DATA = {
                         "str_establishments": "586"
                     }, 
                     "id": "5-81", 
-                    "name": "Other services"
+                    "name": "Other services, except public administration"
                 }, 
                 {
                     "children": [
@@ -3726,7 +3726,7 @@ DATA = {
                                     "data": {
                                         "status": "", 
                                         "str_annual_payroll": "$127,012", 
-                                        "$color": "#923434", 
+                                        "$color": "#a73939", 
                                         "str_annual_payroll_pct": "0.00%", 
                                         "paid_employees": 6, 
                                         "str_paid_employees": "6", 
@@ -3744,7 +3744,7 @@ DATA = {
                             "data": {
                                 "status": "", 
                                 "str_annual_payroll": "$127,012", 
-                                "$color": "#501c1c", 
+                                "$color": "#933232", 
                                 "str_annual_payroll_pct": "0.00%", 
                                 "paid_employees": 6, 
                                 "str_paid_employees": "6", 
@@ -3762,7 +3762,7 @@ DATA = {
                     "data": {
                         "status": "", 
                         "str_annual_payroll": "$127,012", 
-                        "$color": "#3e1622", 
+                        "$color": "#612436", 
                         "str_annual_payroll_pct": "0.00%", 
                         "paid_employees": 6, 
                         "str_paid_employees": "6", 
@@ -3780,7 +3780,7 @@ DATA = {
             "data": {
                 "status": "", 
                 "str_annual_payroll": "$3,086,297,679", 
-                "$color": "#27143a", 
+                "$color": "#371d51", 
                 "str_annual_payroll_pct": "85.29%", 
                 "paid_employees": 78363, 
                 "str_paid_employees": "78,363", 
