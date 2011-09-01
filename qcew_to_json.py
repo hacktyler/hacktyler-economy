@@ -6,12 +6,6 @@ import json
 import random
 import sys
 
-reader = csv.reader(open('qcew/industry_codes.csv'))
-
-industry_names = {}
-for row in reader:
-    industry_names[row[0]] = row[1]
-
 reader = csv.DictReader(open('qcew/qcew_smith.csv'))
 
 data = {}
@@ -60,7 +54,7 @@ def create_obj_for_row(row, root_obj):
         elif ownership_code == '5':
             obj['name'] = 'Private Industry'
     else:
-        obj['name'] = '%s' % industry_names[row['industry_code']]
+        obj['name'] = '%s' % row['industry_title']
 
     obj['data'] = {
         'status': row['annual_status_code'],
