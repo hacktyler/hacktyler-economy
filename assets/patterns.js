@@ -11,17 +11,7 @@ function create_label(domElement, node) {
     domElement.innerHTML = node_template(node);
     
     if (node.getSubnodes().length > 2) {
-        var style = domElement.style;
-
-        style.cursor = "default";
-        
-        domElement.onmouseover = function() {
-            style.cursor = "pointer";
-        };
-        
-        domElement.onmouseout = function() {
-            style.cursor = "default";
-        };
+        domElement.className += " clickable";
     }
 }
 

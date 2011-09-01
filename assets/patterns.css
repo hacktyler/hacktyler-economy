@@ -100,15 +100,24 @@ h5 { font-size: 1.1em }
     
 }
 
+#infovis {
+    background-color: black;
+}
+
 .node {
-  color:#fff;
-  font-size:14px;
-  overflow: hidden;
-  cursor:default;
-  text-shadow:2px 2px 5px #000;
-  -o-text-shadow:2px 2px 5px #000;
-  -webkit-text-shadow:2px 2px 5px #000;
-  -moz-text-shadow:2px 2px 5px #000;
+    color:#ccc;
+    font-size:14px;
+    overflow: hidden;
+    cursor:default;
+    text-shadow:2px 2px 5px #000;
+    -o-text-shadow:2px 2px 5px #000;
+    -webkit-text-shadow:2px 2px 5px #000;
+    -moz-text-shadow:2px 2px 5px #000;
+}
+
+.node.clickable:hover {
+    cursor: pointer;
+    color: #fff;
 }
 
 .node-wrapper {
