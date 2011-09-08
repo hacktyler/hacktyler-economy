@@ -16,8 +16,9 @@
     <script language="javascript" type="text/javascript" src="patterns.js"></script>
 </head>
 <body>
-    <div id="legend-wrapper">
-        <div id="legend">
+    <table>
+    <tr>
+    <td id="legend">
         <h1>Smith County<br />economic atlas</h1> 
 
         <p>This graph, called a <a href="http://en.wikipedia.org/wiki/Treemapping">treemap</a>, shows Smith County's economy divided into the categories of the <a href="http://www.census.gov/eos/www/naics/">North American Industry Classification System</a>.</p>
@@ -28,9 +29,9 @@
 
         <div class="controls">
             <h5>Redistribute the graph by:</h5>
-            <button class="annual_payroll" onclick="reshape_treemap('annual_payroll');">Total annual payroll</button>
-            <button class="paid_employees" onclick="reshape_treemap('paid_employees');">Paid employees</button><br />
-            <button class="establishments" onclick="reshape_treemap('establishments');">Establishments</button><br />
+            <input type="button" class="annual_payroll" onclick="reshape_treemap('annual_payroll');" value="Total annual payroll" />
+            <input type="button" class="paid_employees" onclick="reshape_treemap('paid_employees');" value="Paid employees" />
+            <input type="button" class="establishments" onclick="reshape_treemap('establishments');" value="Establishments" />
         </div>
 
         <p>Move your mouse over the graph for additional details.</p>
@@ -40,11 +41,11 @@
         <strong>Data/Code:</strong> <a href="https://docs.google.com/spreadsheet/ccc?key=0AlXMOHKxzQVRdDAwUmhJNUpwcHNja2kyYVZTSDBtX3c&hl=en_US">Google Docs</a> & <a href="https://github.com/hacktyler/hacktyler-economy">Github</a><br />
             <strong>Source:</strong> <a href="http://www.bls.gov/">Bureau of Labor Statistics</a>
         </div>
-    </div>
-    </div>
+    </td>
 
-    <div id="infovis">
-    </div>
+    <td id="infovis">
+    </td>
+    </table>
 
     <script type="text/template" id="node-template">
         <div class="node-wrapper">

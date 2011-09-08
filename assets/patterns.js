@@ -30,8 +30,8 @@ function reshape_treemap(datum) {
 
     treemap.loadJSON(DATA);
     treemap.refresh();
-    $(".controls button").removeAttr('disabled');
-    $(".controls button." + datum).attr('disabled', 'disabled');
+    $(".controls input").prop('disabled', false);
+    $(".controls input." + datum).prop('disabled', true);
 
     current_datum = datum;
     update_hash();
@@ -108,9 +108,9 @@ function parse_hash() {
 $(function init() {
     node_template = _.template($("#node-template").html());
     tooltip_template = _.template($("#tooltip-template").html());
-    
+
     current_datum = "annual_payroll";
-    $("button.annual_payroll").attr('disabled', 'disabled');
+    $(".controls input.annual_payroll").prop('disabled', true);
 
     create_treemap(DATA);
     parse_hash();
